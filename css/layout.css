@@ -36,40 +36,23 @@ body {
 /* ------------------------------------------------------------------ */
 
 header {
-  position: relative;
-  height: 800px;
-  min-height: 500px;
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
-  /*background: #161415 ;*/
-}
-
-header:after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-    /*width: 100%;*/
-    /*height: 100%;*/
-  background: url(../images/writing.jpg) no-repeat top center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  opacity: 0.2;
-  background-attachment: fixed;
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background: #161415 url(../images/writing.png) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
 }
 
 /* vertically center banner section */
-
 header:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
 }
 header .banner {
   display: inline-block;
@@ -241,8 +224,12 @@ ul#nav li.current a {
   margin-bottom: 12px;
 }
 #about p {
-  line-height: 30px;
-  color: #7A7A7A;
+  /*line-height: 30px;*/
+  /*color: #7A7A7A;*/
+  font-size: 17px;
+  /*line-height: 30px;*/
+  /*color: #999999;*/
+  color: #bfbfbf;
 }
 #about .profile-pic {
   position: relative;
@@ -286,6 +273,11 @@ ul#nav li.current a {
   overflow: hidden;
 }
 .skills {
+  /*margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;*/
+}
+.skills-last {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
@@ -311,7 +303,7 @@ ul#nav li.current a {
   display: inline-block;
   width: 150px;
   height: 150px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 50px;
   text-align: center;
 }
@@ -641,16 +633,20 @@ call-to-action .button {
   position: relative;
   min-height: 200px;
   width: 100%;
+  background: #1F1F1F url(../images/macbook_desk.png) no-repeat center center;
   overflow: hidden;
-}
-#testimonials::after{
-  background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+  display: block;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
-  z-index: -1;
+  overflow: hidden;
+}
+#testimonials::after{
+  /*content: "";*/
+  /*z-index: -1;*/
   /*opacity: 0.2;*/
 }
+
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;
@@ -845,7 +841,8 @@ call-to-action .button {
   /*background-color: #eee;*/
   background-color: #fff;
   padding: 20px;
-  width: 33%;
+  /*width: 33%;*/
+  width: 25%;
   top: 70px;
   right: 50px;
   line-height: 1.7em
@@ -872,7 +869,9 @@ call-to-action .button {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: #636363;
+  /*color: #636363;*/ /*original color*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
 }
 #contact .section-head {
   margin-bottom: 42px;
@@ -887,7 +886,8 @@ call-to-action .button {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #EBEEEE;
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
   margin-bottom: 6px;
 }
 #contact h1 span {
@@ -901,11 +901,13 @@ call-to-action .button {
   line-height: 72px;
   text-align: left;
   float: left;
-  color: #ebeeee;
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
 }
 #contact h4 {
   font: 16px/24px 'opensans-bold', sans-serif;
-  color: #EBEEEE;
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
   margin-bottom: 6px;
 }
 #contact p.lead {
@@ -929,6 +931,56 @@ call-to-action .button {
 .contact-form textarea {
   width: 100%;
   height: 150px;
+}
+
+input::-webkit-input-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+input::-moz-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+input:-ms-input-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+
+textarea::-webkit-input-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+textarea::-moz-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+textarea:-moz-placeholder {   /* Older versions of Firefox */
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
+}
+textarea:-ms-input-placeholder {
+  /*color: #fff;*/
+  /*color: #ebeeee;*/
+  color: #bfbfbf;
+	text-transform: uppercase;
 }
 
 /*.contact-form input[type="submit"] {*/
