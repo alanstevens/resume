@@ -89,13 +89,16 @@ jQuery(document).ready(function($) {
   $(window).on('scroll', function() {
 
     var h = $('header').height();
-    var y = $(window).scrollTop();
+    var y = $(window).scrollTop(); //number of hidden pixels above
     var nav = $('#nav-wrap');
 
-    if ((y > h * 0.20) && (y < h) && ($(window).outerWidth() > 768)) {
+    // if ((y > h * 0.20) && (y < h) && ($(window).outerWidth() > 768)) {
+    // if ((y > h * 0.20) && (y < h * 0.94) && ($(window).outerWidth() > 768)) {
+    if ((y > h * 0.10) && (y < h * 0.94) && ($(window).outerWidth() > 768)) {
       nav.fadeOut('fast');
     } else {
-      if (y < h * 0.20) {
+      // if (y < h * 0.20) {
+      if (y < h * 0.94) { //show nav at top of about
         nav.removeClass('opaque').fadeIn('fast');
       } else {
         nav.addClass('opaque').fadeIn('fast');
@@ -138,6 +141,7 @@ jQuery(document).ready(function($) {
     slideshowSpeed: 7000,
     animationSpeed: 600,
     randomize: false,
+    smoothHeight: false
   });
 
   /*----------------------------------------------------*/
