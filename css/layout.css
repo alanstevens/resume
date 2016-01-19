@@ -859,6 +859,32 @@ call-to-action .button {
   /*border-top: solid 5px #ccc*/
 }
 
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+}
+
+/* mobile wide/smaller tablets
+--------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+  #map address {
+    position: relative;
+    top: 0px;
+    width: 100% ;
+    left: 0.01px;
+  }
+}
+
+/* smaller screens
+--------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+}
+
 /* ------------------------------------------------------------------ */
 
 

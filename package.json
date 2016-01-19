@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "==================================================================================================",
   "main": "js/app.js",
-  "globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install node-sass -g",
+  "globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install node-sass -g; npm install jshint -g",
   "scripts": {
     "build": "npm run clean -s; npm run mkdirs -s; npm run jshint; npm run min:all -s; npm run copyassets -s;",
     "mkdirs": "mkdir dist; mkdir dist/css; mkdir dist/js",
@@ -25,7 +25,6 @@
   "devDependencies": {
     "clean-css": "^3.4.9",
     "html-minifier": "^1.1.1",
-    "jshint": "^2.8.0",
     "live-reload": "^1.1.0",
     "uglify-js": "^2.6.1",
     "watch": "^0.17.1"

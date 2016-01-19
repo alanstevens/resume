@@ -94,11 +94,11 @@ jQuery(document).ready(function($) {
 
     // if ((y > h * 0.20) && (y < h) && ($(window).outerWidth() > 768)) {
     // if ((y > h * 0.20) && (y < h * 0.94) && ($(window).outerWidth() > 768)) {
-    if ((y > h * 0.10) && (y < h * 0.94) && ($(window).outerWidth() > 768)) {
+    if ((y > h * 0.10) && (y < h * 0.8) && ($(window).outerWidth() > 768)) {
       nav.fadeOut('fast');
     } else {
       // if (y < h * 0.20) {
-      if (y < h * 0.94) { //show nav at top of about
+      if (y < h * 0.8) { //show nav at top of about
         nav.removeClass('opaque').fadeIn('fast');
       } else {
         nav.addClass('opaque').fadeIn('fast');
@@ -137,10 +137,10 @@ jQuery(document).ready(function($) {
     animation: 'slide',
     controlNav: true,
     directionNav: false,
-    smoothHeight: true,
     slideshowSpeed: 7000,
     animationSpeed: 600,
     randomize: false,
+    // smoothHeight: true,
     smoothHeight: false
   });
 
