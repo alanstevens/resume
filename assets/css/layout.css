@@ -36,23 +36,24 @@ body {
 /* ------------------------------------------------------------------ */
 
 header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   background: #161415 url(../images/writing.png) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../images/writing.png) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
 }
 
 /* vertically center banner section */
+
 header:before {
-   content: '';
-   display: inline-block;
-   vertical-align: middle;
-   height: 100%;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
 }
 header .banner {
   display: inline-block;
@@ -66,14 +67,18 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90px/1.1em;
+  font-weight: 700;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  font-weight: 400;
   color: #A8A8A8;
   margin: 0 auto;
   width: 70%;
@@ -145,7 +150,8 @@ header .scrolldown a:hover {
 /* nav-wrap */
 
 #nav-wrap {
-  font: 12px 'opensans-bold', sans-serif;
+  font: 12px 'Open Sans', sans-serif;
+  font-weight: 700;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -219,7 +225,9 @@ ul#nav li.current a {
   color: #11ABB0;
 }
 #about h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px/30px;
+  font-weight: 700;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -283,7 +291,9 @@ ul#nav li.current a {
   border-bottom: 1px solid #E8E8E8;
 }
 #skills h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/24px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -329,33 +339,37 @@ ul#nav li.current a {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#work,#education{
+#work, #education {
   background: #fff;
   padding-bottom: 72px;
   overflow: hidden;
 }
-#work a,#education a, #work a:visited,#education a:visited {
+#work a, #education a, #work a:visited, #education a:visited {
   color: #11ABB0;
 }
-#work a:hover,#education a:hover, #work a:focus,#education a:focus {
+#work a:hover, #education a:hover, #work a:focus, #education a:focus {
   color: #313131;
 }
-#work h1,#education h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+#work h1, #education h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/24px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#work h1 span,#education h1 span {
+#work h1 span, #education h1 span {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
-#work h3,#education h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
+#work h3, #education h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px/30px;
+  font-weight: 700;
 }
-#work .header-col,#education .header-col {
+#work .header-col, #education .header-col {
   padding-top: 9px;
 }
-#work .main-col,#education .main-col {
+#work .main-col, #education .main-col {
   padding-right: 10%;
 }
 .education, .work {
@@ -363,18 +377,23 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #E8E8E8;
 }
-#work .info,#education .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
+#work .info, #education .info {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px/24px;
+  font-weight: 400;
+  font-style: italic;
   color: #6E7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#work .info span,#education .info span {
+#work .info span, #education .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#work .date,#education .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
+#work .date, #education .date {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px/24px;
+  font-weight: 400;
   margin-top: 6px;
 }
 
@@ -390,7 +409,9 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px/24px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -463,11 +484,15 @@ ul#nav li.current a {
   padding: 18px
 }
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px/21px;
+  font-weight: 700;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px 'opensans-light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px/18px;
+  font-weight: 300;
   color: #c6c7c7;
   margin-bottom: 0;
 }
@@ -497,17 +522,23 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px/24px;
+  font-weight: 700;
   margin-bottom: 12px;
   color: #111;
 }
 .popup-modal .description-box p {
-  font: 14px/24px 'opensans-regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px/24px;
+  font-weight: 400;
   color: #A1A1A1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-  font: 11px/21px 'opensans-light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px/21px;
+  font-weight: 300;
   color: #A1A1A1;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -524,7 +555,9 @@ ul#nav li.current a {
 }
 .popup-modal .link-box a {
   color: #fff;
-  font: 11px/21px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px/21px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -575,7 +608,9 @@ ul#nav li.current a {
   padding-bottom: 48px;
 }
 #call-to-action h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/24px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -597,7 +632,9 @@ ul#nav li.current a {
   margin-top: 12px;
 }
 #call-to-action h2 {
-  font: 28px/36px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px/36px;
+  font-weight: 700;
   color: #EBEEEE;
   margin-bottom: 6px;
 }
@@ -621,7 +658,8 @@ call-to-action .button {
   color: #0D0D0D;
 }
 #call-to-action p span {
-  font-family: 'opensans-semibold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   color: #D8D8D8;
 }
 
@@ -629,7 +667,7 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#testimonials{
+#testimonials {
   position: relative;
   min-height: 200px;
   width: 100%;
@@ -641,18 +679,19 @@ call-to-action .button {
   background-attachment: fixed;
   overflow: hidden;
 }
-#testimonials::after{
+#testimonials::after {
   /*content: "";*/
   /*z-index: -1;*/
   /*opacity: 0.2;*/
 }
-
 #testimonials .text-container {
   padding-top: 96px;
   padding-bottom: 66px;
 }
 #testimonials h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/24px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
@@ -686,7 +725,9 @@ call-to-action .button {
   content: none;
 }
 #testimonials blockquote p {
-  font-family: 'librebaskerville-italic', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: italic;
   padding: 0;
   font-size: 24px;
   line-height: 48px;
@@ -832,7 +873,7 @@ call-to-action .button {
 #map .container {
   position: relative
 }
-#map p{
+#map p {
   margin: 0;
 }
 #map address {
@@ -861,29 +902,30 @@ call-to-action .button {
 
 /* mobile narrow
 --------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
-}
+
+@media only screen and (max-width: 460px) {}
 
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
+
 @media only screen and (max-width: 767px) {
   #map address {
     position: relative;
     top: 0px;
-    width: 100% ;
+    width: 100%;
     left: 0.01px;
   }
 }
 
 /* smaller screens
 --------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
-}
+
+@media only screen and (max-width: 900px) {}
 
 /* larger screens
 --------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
-}
+
+@media screen and (min-width: 1200px) {}
 
 /* ------------------------------------------------------------------ */
 
@@ -895,7 +937,8 @@ call-to-action .button {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
-  /*color: #636363;*/ /*original color*/
+  /*color: #636363;*/
+  /*original color*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
 }
@@ -909,7 +952,9 @@ call-to-action .button {
   color: #fff;
 }
 #contact h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/24px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
   /*color: #ebeeee;*/
@@ -931,13 +976,17 @@ call-to-action .button {
   color: #bfbfbf;
 }
 #contact h4 {
-  font: 16px/24px 'opensans-bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px/24px;
+  font-weight: 700;
   /*color: #ebeeee;*/
   color: #bfbfbf;
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px 'opensans-light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px/36px;
+  font-weight: 300;
   padding-right: 3%;
 }
 #contact .header-col {
@@ -958,55 +1007,55 @@ call-to-action .button {
   width: 100%;
   height: 150px;
 }
-
 input::-webkit-input-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 input::-moz-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
-input:-moz-placeholder {   /* Older versions of Firefox */
+input:-moz-placeholder {
+  /* Older versions of Firefox */
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 input:-ms-input-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 textarea::-webkit-input-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 textarea::-moz-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
-textarea:-moz-placeholder {   /* Older versions of Firefox */
+textarea:-moz-placeholder {
+  /* Older versions of Firefox */
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 textarea:-ms-input-placeholder {
   /*color: #fff;*/
   /*color: #ebeeee;*/
   color: #bfbfbf;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*.contact-form input[type="submit"] {*/
@@ -1057,7 +1106,9 @@ textarea:-ms-input-placeholder {
   display: block;
 }
 #twitter li b a {
-  font: 13px/36px 'opensans-regular', Sans-serif;
+  font-family: 'Open Sans', Sans-serif;
+  font-size: 13px/36px;
+  font-weight: 400;
   color: #474747 !important;
   border: none;
 }
