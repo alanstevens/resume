@@ -68,7 +68,8 @@ header .banner-text {
 }
 header .banner-text h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 90px/1.1em;
+  font-size: 90px;
+  line-height: 1.1em;
   font-weight: 700;
   color: #fff;
   letter-spacing: -2px;
@@ -226,7 +227,8 @@ ul#nav li.current a {
 }
 #about h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 22px/30px;
+  font-size: 22px;
+  line-height: 30px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 12px;
@@ -292,7 +294,8 @@ ul#nav li.current a {
 }
 #skills h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -352,7 +355,8 @@ ul#nav li.current a {
 }
 #work h1, #education h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -363,7 +367,8 @@ ul#nav li.current a {
 }
 #work h3, #education h3 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px/30px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: 700;
 }
 #work .header-col, #education .header-col {
@@ -379,7 +384,8 @@ ul#nav li.current a {
 }
 #work .info, #education .info {
   font-family: 'Libre Baskerville', serif;
-  font-size: 16px/24px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
   font-style: italic;
   color: #6E7881;
@@ -392,7 +398,8 @@ ul#nav li.current a {
 }
 #work .date, #education .date {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/24px;
+  font-size: 15px;
+  line-height: 24px;
   font-weight: 400;
   margin-top: 6px;
 }
@@ -410,7 +417,8 @@ ul#nav li.current a {
 }
 #portfolio h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/24px;
+  font-size: 15px;
+  line-height: 24px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -485,13 +493,15 @@ ul#nav li.current a {
 }
 .portfolio-item .portfolio-item-meta h5 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px/21px;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
   color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px/18px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 300;
   color: #c6c7c7;
   margin-bottom: 0;
@@ -523,21 +533,24 @@ ul#nav li.current a {
 }
 .popup-modal .description-box h4 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/24px;
+  font-size: 15px;
+  line-height: 24px;
   font-weight: 700;
   margin-bottom: 12px;
   color: #111;
 }
 .popup-modal .description-box p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px/24px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 400;
   color: #A1A1A1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
   font-family: 'Open Sans', sans-serif;
-  font-size: 11px/21px;
+  font-size: 11px;
+  line-height: 21px;
   font-weight: 300;
   color: #A1A1A1;
   text-transform: uppercase;
@@ -556,7 +569,8 @@ ul#nav li.current a {
 .popup-modal .link-box a {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 11px/21px;
+  font-size: 11px;
+  line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -609,7 +623,8 @@ ul#nav li.current a {
 }
 #call-to-action h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -633,7 +648,8 @@ ul#nav li.current a {
 }
 #call-to-action h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px/36px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 700;
   color: #EBEEEE;
   margin-bottom: 6px;
@@ -690,7 +706,8 @@ call-to-action .button {
 }
 #testimonials h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -953,7 +970,8 @@ call-to-action .button {
 }
 #contact h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/24px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -977,7 +995,8 @@ call-to-action .button {
 }
 #contact h4 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px/24px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 700;
   /*color: #ebeeee;*/
   color: #bfbfbf;
@@ -985,7 +1004,8 @@ call-to-action .button {
 }
 #contact p.lead {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px/36px;
+  font-size: 18px;
+  line-height: 36px;
   font-weight: 300;
   padding-right: 3%;
 }
@@ -1107,7 +1127,8 @@ textarea:-ms-input-placeholder {
 }
 #twitter li b a {
   font-family: 'Open Sans', Sans-serif;
-  font-size: 13px/36px;
+  font-size: 13px;
+  line-height: 36px;
   font-weight: 400;
   color: #474747 !important;
   border: none;

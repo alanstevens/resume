@@ -172,7 +172,8 @@ p img {
 }
 p.lead {
   font-family: 'Open Sans', sans-serif;
-  font-size: 19px/36px;
+  font-size: 19px;
+  line-height: 36px;
   font-weight: 300;
   margin-bottom: 18px;
 }
@@ -182,13 +183,15 @@ the body tag due to rendering problems in some browsers */
 
 em {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/30px;
+  font-size: 15px;
+  line-height: 30px;
   font-weight: 400;
   font-style: italic;
 }
 strong, b {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/30px;
+  font-size: 15px;
+  line-height: 30px;
   font-weight: 700;
 }
 small {
@@ -475,7 +478,8 @@ dd {
 }
 .pagination .page-numbers {
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px/18px;
+  font-size: 15px;
+  line-height: 18px;
   font-weight: 700;
   display: inline-block;
   padding: 6px 10px;
@@ -524,7 +528,8 @@ img.pull-left {
 
 .button, .button:visited, button, input[type="submit"], input[type="reset"], input[type="button"] {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px/30px;
+  font-size: 16px;
+  line-height: 30px;
   font-weight: 700;
   background: #11ABB0;
   display: inline-block;
@@ -604,7 +609,8 @@ textarea {
 }
 label, legend {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px/24px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 700;
   margin: 12px 0;
   color: #3d4145;
@@ -613,7 +619,8 @@ label, legend {
 label span, legend span {
   color: #8B9798;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px/24px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 400;
 }
 input[type="checkbox"], input[type="radio"] {
