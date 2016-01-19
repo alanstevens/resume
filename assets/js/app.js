@@ -325,7 +325,7 @@ jQuery(document).ready(function($) {
     new google.maps.Marker({
       position: latLng,
       map: map,
-      icon: "images/Google-Map-marker-revised-bubble-small.png",
+      icon: "assets/images/Google-Map-marker-revised-bubble-small.png",
     });
   }
 });
