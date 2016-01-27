@@ -6,13 +6,13 @@
   "scripts": {
     "build": "npm run clean -s; npm run mkdirs -s; npm run jshint; npm run min:all -s; npm run copyassets -s;",
     "clean": "rm -rf dist",
-    "mkdirs": "mkdir dist; mkdir dist/assets; mkdir dist/assets/fonts; mkdir dist/assets/images; mkdir dist/assets/js; mkdir dist/assets/css; mkdir dist/inc;",
+    "mkdirs": "mkdir dist; mkdir dist/assets; mkdir dist/assets/files; mkdir dist/assets/fonts; mkdir dist/assets/images; mkdir dist/assets/js; mkdir dist/assets/css; mkdir dist/inc;",
     "jshint": "jshint assets/js/app.js",
     "min:all": "npm run min:js; npm run min:css; npm run process-html",
     "min:css": "cleancss --source-map --output dist/assets/css/style.min.css assets/css/*.css",
     "min:js": "uglifyjs assets/js/jquery-1.10.2.min.js assets/js/jquery-migrate-1.2.1.min.js assets/js/jquery.flexslider.js assets/js/waypoints.js assets/js/jquery.fittext.js assets/js/magnific-popup.js assets/js/jquery.nav.js assets/js/jquery.sticky.js assets/js/jquery.easypiechart.min.js assets/js/app.js --compress --mangle --output dist/assets/js/app.min.js --source-map dist/assets/js/app.min.js.map;",
     "min:html": "html-minifier index.processed.html  --remove-comments --remove-comments-from-cdata --remove-cdatasections-from-cdata --collapse-whitespace --conservative-collapse --preserve-line-breaks --collapse-inline-tag-whitespace --collapse-boolean-attributes --remove-attribute-quotes --prevent-attributes-escaping --use-short-doctype --remove-empty-attributes --remove-script-type-attributes --remove-style-link-type-attributes --minify-js --minify-css --minify-urls --output dist/index.html; rm index.processed.html",
-    "copyassets": "cp -r assets/fonts/ dist/assets/fonts; cp assets/images/* dist/assets/images; cp assets/js/Modernizr.js dist/assets/js; cp favicon.* dist;  cp inc/* dist/inc;",
+    "copyassets": "cp -r assets/fonts/ dist/assets/fonts; cp assets/files/* dist/assets/files;  cp assets/images/* dist/assets/images; cp assets/js/Modernizr.js dist/assets/js; cp favicon.* dist;  cp inc/* dist/inc;",
     "process-html": "npm run htmlpre; npm run min:html",
     "htmlpre": "htmlprocessor index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,6 +27,8 @@
     "html-minifier": "^1.1.1",
     "live-reload": "^1.1.0",
     "uglify-js": "^2.6.1",
-    "watch": "^0.17.1"
+    "watch": "^0.17.1",
+    "handlebars": "^3.0.3",
+    "rimraf": "^2.4.2"
   }
 }

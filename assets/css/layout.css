@@ -371,6 +371,9 @@ ul#nav li.current a {
   line-height: 30px;
   font-weight: 700;
 }
+#work .uber-heading{
+  margin-left:-20px;
+}
 #work .header-col, #education .header-col {
   padding-top: 9px;
 }
@@ -1225,4 +1228,12 @@ footer .social-links li:first-child {
 }
 #go-top a:hover {
   background-color: #0F9095;
+}
+
+/*extra styles*/
+
+#work .title, #education .title {
+  background: #fff;
+  padding-bottom: 72px;
+  overflow: hidden;
 }

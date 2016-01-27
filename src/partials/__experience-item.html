@@ -1,0 +1,22 @@
+<!--------------------------- start of record ------------------------------->
+<div class="row item">
+  <div class="twelve columns">
+      {{#if company}}
+        <h3 class="uber-heading">{{company}}</h3>
+      {{/if}}
+    <p class="info">{{location}}
+      <span>&bull;</span>
+      <em class="date">{{dates}}</em>
+    </p>
+    <ul class="tools">
+      {{#each tools}}
+          <li class="tool-item ">{{this}}</li>
+      {{/each}}
+    </ul>
+    <p>
+      {{description}}
+    </p>
+  </div>
+</div>
+<!-- row item end -->
+<!--------------------------- end of record ------------------------------->

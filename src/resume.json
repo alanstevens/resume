@@ -1,0 +1,353 @@
+{
+  "mainInfo": {
+    "name": "H. Alan Stevens",
+    "socialIcons": [{
+      "Service": "Twitter",
+      "url": "https://twitter.com/alanstevens"
+    }, {
+      "Service": "LinkedIn",
+      "url": "http://linkedin.com/in/alanstevens"
+    }, {
+      "Service": "Tumblr",
+      "url": "http://alanstevens.us"
+    }, {
+      "Service": "GitHub",
+      "url": "https://github.com/alanstevens"
+    }],
+    "description": "I am an <span>end to end</span> web developer based in Knoxville, Tennessee.<br><span>I solve problems</span>",
+    "profilePic": "head_shot.jpg",
+    "aboutMe": "I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in Bearden which I share with my Border Collie, Malcolm. I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. I have spent the majority of my career in consulting, but I have also worked on medium to large teams as an employee. I developed a graphical resume so that you can see a quick overview of the scope of my career."
+  },
+  "skills": [{
+    "skill": "bō staff",
+    "value": "90"
+  }, {
+    "skill": "Bootstrap",
+    "value": "75"
+  }, {
+    "skill": "javascript",
+    "value": "60"
+  }, {
+    "skill": "jQuery",
+    "value": "65"
+  }, {
+    "skill": "HTML",
+    "value": "80"
+  }, {
+    "skill": "CSS",
+    "value": "50"
+  }, {
+    "skill": "Ruby",
+    "value": "40"
+  }, {
+    "skill": "Ruby on Rails",
+    "value": "55"
+  }, {
+    "skill": "C#",
+    "value": "90"
+  }, {
+    "skill": "ASP.NET",
+    "value": "90"
+  }, {
+    "skill": "SQL",
+    "value": "55"
+  }, {
+    "skill": "git",
+    "value": "50"
+  }, {
+    "skill": "public speaking",
+    "value": "90"
+  }, {
+    "skill": "teaching",
+    "value": "90"
+  }, {
+    "skill": "writing",
+    "value": "80"
+  }],
+  "experience": [{
+    "company": "NerdHive Industries <em>2010 - Present</em>",
+    "location": "Fort Worth, TX",
+    "dates": "2014 - Present",
+    "tools": [
+      "Rails 3.0",
+      "Ruby 1.9.3",
+      "PostGreSQL",
+      "Capistrano",
+      "MySQL",
+      "git"
+    ],
+    "description": "Adopted a large Rails 3.0 application that had no remaining developers. I fixed issues and implemented small feature requests while constantly working to minimize risk for the client. I refactored the application to separate static assets from source code. I put source code in git. I implemented automated deploys using Capistrano. I tracked down and documented every application dependency. I created an auto-provisioning vagrant configuration to mirror production and make all dependencies explicit."
+  }, {
+    "company": "",
+    "location": "Sanborn, NY",
+    "dates": "2014 - Present",
+    "tools": [
+      "C#",
+      "ASP.NET MVC",
+      "Bootstrap",
+      "git"
+    ],
+    "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to their current paper billing customers. Once I had the MVP working, an in house developer joined me to carry it to release."
+  }, {
+    "company": "",
+    "location": "Edison, NJ",
+    "dates": "2012 - 2015",
+    "tools": [
+      "C#",
+      "ASP.NET MVC",
+      "SQL Server",
+      "KnockoutJS",
+      "jQuery",
+      "Team City",
+      "Mercurial"
+    ],
+    "description": "Collaborate with an in house developer in extending a global procurement and logistics application. Moved the code base onto Mercurial source control. Configured continuous integration and deployment. Collaborate with an in house developer porting a VB6 application to ASP.NET MVC. Worked with the entire tech team in training and design of the new system."
+  }, {
+    "company": "",
+    "location": "Houston, TX",
+    "dates": "2012 - 2014",
+    "tools": [
+      "Rails 4.0",
+      "Ruby 2.0",
+      "Bootstrap",
+      "Heroku",
+      "MongoDB",
+      "git"
+    ],
+    "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to their current paper billing customers. Once I had the MVP working, an in house developer joined me to carry it to release."
+  }, {
+    "company": "",
+    "location": "Sanborn, NY",
+    "dates": "2012 - 2013",
+    "tools": [
+      "C#",
+      "ASP.NET MVC",
+      "Bootstrap",
+      "jQuery",
+      "Sybase",
+      "git"
+    ],
+    "description": "Collaborate with an in house developer porting a VB6 application to ASP.NET MVC. Worked with the entire tech team in training and design of the new system."
+  }, {
+    "company": "",
+    "location": "Santa Rosa, CA",
+    "dates": "2012",
+    "tools": [
+      "C#",
+      "ASP.NET MVC",
+      "SQL Server",
+      "Azure",
+      "TFS"
+    ],
+    "description": "Code Review of a pre-release ASP.NET application. I implemented a few small features, but my focus was on producing detailed notes and documentation for the application. In order to debug it locally I had to become familiar with some features of Azure hosting."
+  }, {
+    "company": "",
+    "location": "Knoxville, TN",
+    "dates": "2012",
+    "tools": [
+      "Ruby 1.9.3",
+      "Rails 3.2",
+      "Bootstrap",
+      "MySQL",
+      "git"
+    ],
+    "description": "Built a greenfield application using a legacy database to manage importing financial reporting in a various formats and schemas."
+  }, {
+    "company": "",
+    "location": "Colorado Springs, CO",
+    "dates": "2012",
+    "tools": [
+      "C#",
+      "Windows Forms",
+      "DB2",
+      "SVN"
+    ],
+    "description": "Refactored a legacy Windows Forms application with improved UX, and asynchronous DB access to cope with lengthy DB2 response times."
+  }, {
+    "company": "",
+    "location": "Charlotte, NC",
+    "dates": "2011 - 2012",
+    "tools": [
+      "C#",
+      "Web API",
+      "Powershell",
+      "git"
+    ],
+    "description": "Built a greenfield REST web api which automated Powershell on the back end to administer Office 365."
+  }, {
+    "company": "",
+    "location": "Knoxville, TN",
+    "dates": "2011",
+    "tools": [
+      "C#",
+      "ASP.NET Web Forms",
+      "SQL Server",
+      "jQuery",
+      "SVN"
+    ],
+    "description": "Maintained a web forms application for a local SaaS provider to physical therapists."
+  }, {
+    "company": "",
+    "location": "Arlington, VA",
+    "dates": "2011",
+    "tools": [
+      "Ruby 1.9.3",
+      "Rails 3",
+      "beta",
+      "Heroku",
+      "MongoDB",
+      "git"
+    ],
+    "description": "Part of a small team building green field Rails application using MongoDB beant to diagnose, track and minimize athletic concussion injuries."
+  }, {
+    "company": "",
+    "location": "Houston, TX",
+    "dates": "2010 - 2011",
+    "tools": [
+      "C#",
+      "WPF",
+      "NHibernate",
+      "SQL Server",
+      "TFS"
+    ],
+    "description": "Led a five developer team in porting a mature Visual FoxPro application to WPF and SQL Server.<hr>"
+  }, {
+    "company": "Interactive Intelligence Incorporated",
+    "location": "Indianapolis, IN",
+    "dates": "2009 - 2010",
+    "tools": [
+      "C#",
+      "Windows Forms",
+      "Powershell",
+      "Perforce"
+    ],
+    "description": "Contributed to a large Windows Forms client for an enterprise VOIP telephony system. Lead a move away from MSTest to xUnit.net following a more BDD style. Refactored application bootstrap routines for clarity and maintainability."
+  }, {
+    "company": "Freelance Consultant <em>2008 - 2009</em>",
+    "location": "Kansas City, MO",
+    "dates": " 2009",
+    "tools": [
+      "C#",
+      "ASP.NET SOAP Web Services",
+      "SQL Server",
+      "SVN"
+    ],
+    "description": "Developed a web service API for credit card processing using custom headers for authentication and a SQL Server backend."
+  }, {
+    "company": "",
+    "location": "Knoxville, TN",
+    "dates": "2008 - 2009",
+    "tools": [
+      "VB.NET",
+      "Oracle",
+      "jQuery",
+      "TFS"
+    ],
+    "description": " Developed a business intelligence application for the corporate intranet using ASP.NET with an Oracle database accessed through stored procedures. Managed migration of the development platform for all applications from Visual Studio 2003 / .NET 1.1 to Visual Studio 2008 / .NET 3.5."
+  }, {
+    "company": "",
+    "location": "Atlanta, GA",
+    "dates": "2008",
+    "tools": [
+      "Classic ASP",
+      "Adobe Director",
+      "SVN"
+    ],
+    "description": "Integrated an existing classic ASP application into an Adobe Director application. Built SQL Server English Query model for a law-enforcement database."
+  }, {
+    "company": "",
+    "location": "Chicago, IL",
+    "dates": "2008",
+    "tools": [
+      "Visual FoxPro",
+      "SVN"
+    ],
+    "description": "Reorganized and cleaned up the source tree of a Visual FoxPro application and imported it to Subversion for version control."
+  }, {
+    "company": "",
+    "location": "Edwards, CO",
+    "dates": "2008",
+    "tools": [
+      "ASP.NET Web Form",
+      "VB.NET",
+      "SQL Server",
+      "SVN"
+    ],
+    "description": "Extended an existing website built with SQL Server and ASP.NET for an international law firm. Implemented dynamic data filtering using AJAX partial page post back. Responsible for all aspects of feature implementation from writing SQL queries to page layout using CSS.<hr>"
+  }, {
+    "company": "DPRA",
+    "location": "Knoxville, TN",
+    "dates": "2005-2008",
+    "tools": [
+      "Visual FoxPro",
+      "C#",
+      "Windows Forms",
+      "TFS"
+    ],
+    "description": "Built a user-friendly interface to perform queries of a logistical plan. Created a tool for editing ship schedules by an operator during logistical exercises. Organized a committee to conduct interviews and gather requirements for Team Foundation Server. Responsible for configuration, deployment and administration of all TFS functions. Designed and built custom TFS Version control client for Visual FoxPro using the managed, .NET client API and COM interop."
+  }, {
+    "company": "Young & Meade Consulting",
+    "location": "Knoxville, TN",
+    "dates": "2002 - 2005",
+    "tools": [
+      "Visual FoxPro",
+      "PHP",
+      "MySQL"
+    ],
+    "description": "Managed the network for a private school managed proxy firewall, domain controller, webmail, websites, proxy filtering using a linux server. Implemented and extended Horde using php and mysql. Adopted all facets of support for a custom hospitality app used at a country club providing point of sale, billing and back office services. Lead developer in adapting a custom point of sale app for retail distribution. Created a time clock application supporting some very specific and complex business rules which is still in use today, unmodified. Adopted, extended and eventually rewrote an application managing cost of good sold and payroll export to support transparency and accountability for a fast food franchisee with 90+ stores."
+  }, {
+    "company": "Site Management Services",
+    "location": "Knoxville, TN",
+    "dates": "2000 - 2001",
+    "tools": [
+      "VBA",
+      "Visual FoxPro"
+    ],
+    "description": "Built a system to track and manage cellphone tower sites. Created topographical map overlays to predict signal range. Provided business intelligence to predict new site opportunities."
+  }],
+  "education": [{
+    "institution": "University of Tennessee",
+    "degree": "MS in Education, Curriculum & Instrucion",
+    "date": "1994"
+  }, {
+    "institution": "University of Tennessee",
+    "degree": "BA in History",
+    "date": "1993"
+  }],
+  "endorsments": [{
+    "namne": "",
+    "image": "",
+    "content": ""
+  }, {
+    "name": "",
+    "image": "",
+    "content": ""
+  }, {
+    "name": "",
+    "image": "",
+    "content": ""
+  }, {
+    "name": "",
+    "image": "",
+    "content": ""
+  }, {
+    "name": "",
+    "image": "",
+    "content": ""
+  }],
+  "map": {
+    "lat": "35.935261",
+    "lng": "-83.995762"
+  },
+  "contactInfo": {
+    "street": "101 Westwood Road",
+    "suite": "Suite 212",
+    "city": "Knoxville",
+    "state": "TN",
+    "zip": "37923",
+    "mobile": "865-748-4074",
+    "email": "jobs@alanstevens.io",
+    "url": "http://alanstevens.io"
+  },
+  "summaryMessage": "I hope you enjoyed reading my resume. I'd love to hear from you. Feel free to contact me about employment opportunities, or any other matter."
+}
