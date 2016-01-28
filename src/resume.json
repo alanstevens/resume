@@ -19,50 +19,53 @@
     "url": "https://github.com/alanstevens"
   }],
   "skills": [{
-    "skill": "bō staff",
+    "name": "bō staff",
     "value": "90"
   }, {
-    "skill": "Bootstrap",
+    "name": "Bootstrap",
     "value": "75"
   }, {
-    "skill": "javascript",
+    "name": "javascript",
     "value": "60"
   }, {
-    "skill": "jQuery",
+    "name": "jQuery",
     "value": "65"
   }, {
-    "skill": "HTML",
+    "name": "HTML",
     "value": "80"
   }, {
-    "skill": "CSS",
+    "name": "CSS",
     "value": "50"
   }, {
-    "skill": "Ruby",
+    "name": "Ruby",
     "value": "40"
   }, {
-    "skill": "Ruby on Rails",
+    "name": "Ruby on Rails",
     "value": "55"
   }, {
-    "skill": "C#",
+    "name": "C#",
     "value": "90"
   }, {
-    "skill": "ASP.NET",
+    "name": "ASP.NET",
     "value": "90"
   }, {
-    "skill": "SQL",
+    "name": "SQL",
     "value": "55"
   }, {
-    "skill": "git",
+    "name": "git",
     "value": "50"
   }, {
-    "skill": "public speaking",
+    "name": "public speaking",
     "value": "90"
   }, {
-    "skill": "teaching",
+    "name": "teaching",
     "value": "90"
   }, {
-    "skill": "writing",
+    "name": "writing",
     "value": "80"
+  }, {
+    "name": "",
+    "value": ""
   }],
   "experience": [{
     "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>"

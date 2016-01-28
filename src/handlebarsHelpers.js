@@ -3,7 +3,8 @@ var fs = require("fs");
 var _ = require("lodash");
 var Handlebars = require("handlebars");
 
-function registerHelpers() {
+
+module.exports.registerComparisonHelpers = function() {
   // #compare - adapted from http://doginthehat.com.au/2012/02/comparison-block-helper-for-handlebars-templates/#comment-44
   Handlebars.registerHelper("compare", function(lval, operator, rval, options) {
     var operators, result;
@@ -70,9 +71,4 @@ function registerHelpers() {
   Handlebars.registerHelper("stripChars", function(target) {
     return target.replace(".", "");
   });
-}
-
-module.exports.init = function() {
-  registerHelpers();
-  // registerPartials();
 };

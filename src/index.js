@@ -1,17 +1,19 @@
-var _ = require("lodash");
-// var ResumeBuilder = require("./build");
-var data = require("./resume.json");
-var path = require("path");
 var fs = require("fs");
+var path = require("path");
 var rimraf = require("rimraf");
 var Handlebars = require("handlebars");
-// var Templates = require("./build/templates");
-
-// Templates.init();
-registerPartials();
-
+var data = require("./resume.json");
 var templatePath = path.resolve(__dirname, "./index-template.html");
 var templateSource = fs.readFileSync(templatePath, "utf-8");
+
+// format skills data for rendering
+data.skillRows = [];
+while (data.skills.length) {
+  data.skillRows.push(data.skills.splice(0, 4));
+}
+
+registerPartials();
+
 var template = Handlebars.compile(templateSource);
 var resumeContent = template(data);
 var fileName = path.resolve(__dirname, "../index.html");
@@ -28,8 +30,8 @@ rimraf(fileName,
 ); //rimraf
 
 function registerPartials() {
-  var partialsPath = path.resolve(__dirname, "./partials"),
-    partials = fs.readdirSync(partialsPath);
+  var partialsPath = path.resolve(__dirname, "./partials");
+  var partials = fs.readdirSync(partialsPath);
 
   partials.forEach(function(partial) {
     var partialName = partial.substr(2, (partial.lastIndexOf(".") - 2));
