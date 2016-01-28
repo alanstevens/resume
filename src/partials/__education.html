@@ -1,0 +1,45 @@
+
+  <section id="education">
+
+    <!-- Education -->
+    <div class="row education">
+
+      <div class="three columns header-col">
+        <h1>
+          <span>Education</span>
+        </h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+      {{#each data}}
+        <!-- item start -->
+        <div class="row item">
+
+          <div class="twelve columns">
+
+            <h3>{{institution}}</h3>
+            <p class="info">{{degree}}
+              <span>&bull;</span>
+              <em class="date">{{date}}</em>
+            </p>
+
+            <!-- <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+            </p> -->
+
+          </div>
+
+        </div>
+        <!-- item end -->
+      {{/each}}
+
+      </div>
+      <!-- main-col end -->
+
+    </div>
+    <!-- End Education -->
+
+  </section>
+  <!-- Education Section End-->

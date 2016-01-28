@@ -2,8 +2,9 @@
 <div class="row item">
   <div class="twelve columns">
       {{#if company}}
-        <h3 class="uber-heading">{{company}}</h3>
+        <h3 class="uber-heading">{{{company}}}</h3>
       {{/if}}
+      {{#if location}}
     <p class="info">{{location}}
       <span>&bull;</span>
       <em class="date">{{dates}}</em>
@@ -16,6 +17,7 @@
     <p>
       {{description}}
     </p>
+      {{/if}}
   </div>
 </div>
 <!-- row item end -->

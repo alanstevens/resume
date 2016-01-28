@@ -1,23 +1,23 @@
 {
-  "mainInfo": {
-    "name": "H. Alan Stevens",
-    "socialIcons": [{
-      "Service": "Twitter",
-      "url": "https://twitter.com/alanstevens"
-    }, {
-      "Service": "LinkedIn",
-      "url": "http://linkedin.com/in/alanstevens"
-    }, {
-      "Service": "Tumblr",
-      "url": "http://alanstevens.us"
-    }, {
-      "Service": "GitHub",
-      "url": "https://github.com/alanstevens"
-    }],
+  "author": "H. Alan Stevens",
+  "intro": {
     "description": "I am an <span>end to end</span> web developer based in Knoxville, Tennessee.<br><span>I solve problems</span>",
     "profilePic": "head_shot.jpg",
-    "aboutMe": "I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in Bearden which I share with my Border Collie, Malcolm. I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. I have spent the majority of my career in consulting, but I have also worked on medium to large teams as an employee. I developed a graphical resume so that you can see a quick overview of the scope of my career."
+    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. The majority of my career has been spent in consulting, but I have also worked on small, medium and large teams as an employee as well.</p><p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>"
   },
+  "socialIcons": [{
+    "service": "twitter",
+    "url": "https://twitter.com/alanstevens"
+  }, {
+    "service": "linkedin",
+    "url": "http://linkedin.com/in/alanstevens"
+  }, {
+    "service": "tumblr",
+    "url": "http://alanstevens.us"
+  }, {
+    "service": "github",
+    "url": "https://github.com/alanstevens"
+  }],
   "skills": [{
     "skill": "bō staff",
     "value": "90"
@@ -65,7 +65,10 @@
     "value": "80"
   }],
   "experience": [{
-    "company": "NerdHive Industries <em>2010 - Present</em>",
+    "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>"
+  }, {
+    "company": "",
+    "client": "Improving",
     "location": "Fort Worth, TX",
     "dates": "2014 - Present",
     "tools": [
@@ -79,6 +82,7 @@
     "description": "Adopted a large Rails 3.0 application that had no remaining developers. I fixed issues and implemented small feature requests while constantly working to minimize risk for the client. I refactored the application to separate static assets from source code. I put source code in git. I implemented automated deploys using Capistrano. I tracked down and documented every application dependency. I created an auto-provisioning vagrant configuration to mirror production and make all dependencies explicit."
   }, {
     "company": "",
+    "client": "Matrix Imaging",
     "location": "Sanborn, NY",
     "dates": "2014 - Present",
     "tools": [
@@ -90,6 +94,7 @@
     "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to their current paper billing customers. Once I had the MVP working, an in house developer joined me to carry it to release."
   }, {
     "company": "",
+    "client": "DGL Group",
     "location": "Edison, NJ",
     "dates": "2012 - 2015",
     "tools": [
@@ -104,6 +109,7 @@
     "description": "Collaborate with an in house developer in extending a global procurement and logistics application. Moved the code base onto Mercurial source control. Configured continuous integration and deployment. Collaborate with an in house developer porting a VB6 application to ASP.NET MVC. Worked with the entire tech team in training and design of the new system."
   }, {
     "company": "",
+    "client": "ChaiOne",
     "location": "Houston, TX",
     "dates": "2012 - 2014",
     "tools": [
@@ -117,6 +123,7 @@
     "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to their current paper billing customers. Once I had the MVP working, an in house developer joined me to carry it to release."
   }, {
     "company": "",
+    "client": "Matrix Systems",
     "location": "Sanborn, NY",
     "dates": "2012 - 2013",
     "tools": [
@@ -130,6 +137,7 @@
     "description": "Collaborate with an in house developer porting a VB6 application to ASP.NET MVC. Worked with the entire tech team in training and design of the new system."
   }, {
     "company": "",
+    "client": "GoldMail",
     "location": "Santa Rosa, CA",
     "dates": "2012",
     "tools": [
@@ -142,6 +150,7 @@
     "description": "Code Review of a pre-release ASP.NET application. I implemented a few small features, but my focus was on producing detailed notes and documentation for the application. In order to debug it locally I had to become familiar with some features of Azure hosting."
   }, {
     "company": "",
+    "client": "TAG Resources",
     "location": "Knoxville, TN",
     "dates": "2012",
     "tools": [
@@ -154,6 +163,7 @@
     "description": "Built a greenfield application using a legacy database to manage importing financial reporting in a various formats and schemas."
   }, {
     "company": "",
+    "client": "Chefs Catalog",
     "location": "Colorado Springs, CO",
     "dates": "2012",
     "tools": [
@@ -165,6 +175,7 @@
     "description": "Refactored a legacy Windows Forms application with improved UX, and asynchronous DB access to cope with lengthy DB2 response times."
   }, {
     "company": "",
+    "client": "Acrowire",
     "location": "Charlotte, NC",
     "dates": "2011 - 2012",
     "tools": [
@@ -176,6 +187,7 @@
     "description": "Built a greenfield REST web api which automated Powershell on the back end to administer Office 365."
   }, {
     "company": "",
+    "client": "FOTO",
     "location": "Knoxville, TN",
     "dates": "2011",
     "tools": [
@@ -188,6 +200,7 @@
     "description": "Maintained a web forms application for a local SaaS provider to physical therapists."
   }, {
     "company": "",
+    "client": "Peak Neurofitness",
     "location": "Arlington, VA",
     "dates": "2011",
     "tools": [
@@ -201,6 +214,7 @@
     "description": "Part of a small team building green field Rails application using MongoDB beant to diagnose, track and minimize athletic concussion injuries."
   }, {
     "company": "",
+    "client": "EPS Group",
     "location": "Houston, TX",
     "dates": "2010 - 2011",
     "tools": [
@@ -213,6 +227,7 @@
     "description": "Led a five developer team in porting a mature Visual FoxPro application to WPF and SQL Server.<hr>"
   }, {
     "company": "Interactive Intelligence Incorporated",
+    "client": "",
     "location": "Indianapolis, IN",
     "dates": "2009 - 2010",
     "tools": [
@@ -223,7 +238,10 @@
     ],
     "description": "Contributed to a large Windows Forms client for an enterprise VOIP telephony system. Lead a move away from MSTest to xUnit.net following a more BDD style. Refactored application bootstrap routines for clarity and maintainability."
   }, {
-    "company": "Freelance Consultant <em>2008 - 2009</em>",
+    "company": "Freelance Consultant&nbsp;<em>2008 - 2009</em>"
+  }, {
+    "company": "",
+    "client": "Vision Pace",
     "location": "Kansas City, MO",
     "dates": " 2009",
     "tools": [
@@ -235,6 +253,7 @@
     "description": "Developed a web service API for credit card processing using custom headers for authentication and a SQL Server backend."
   }, {
     "company": "",
+    "client": "ALCOA",
     "location": "Knoxville, TN",
     "dates": "2008 - 2009",
     "tools": [
@@ -246,6 +265,7 @@
     "description": " Developed a business intelligence application for the corporate intranet using ASP.NET with an Oracle database accessed through stored procedures. Managed migration of the development platform for all applications from Visual Studio 2003 / .NET 1.1 to Visual Studio 2008 / .NET 3.5."
   }, {
     "company": "",
+    "client": "Intellection Group",
     "location": "Atlanta, GA",
     "dates": "2008",
     "tools": [
@@ -256,6 +276,7 @@
     "description": "Integrated an existing classic ASP application into an Adobe Director application. Built SQL Server English Query model for a law-enforcement database."
   }, {
     "company": "",
+    "client": "QuotePro",
     "location": "Chicago, IL",
     "dates": "2008",
     "tools": [
@@ -265,10 +286,11 @@
     "description": "Reorganized and cleaned up the source tree of a Visual FoxPro application and imported it to Subversion for version control."
   }, {
     "company": "",
+    "client": "Reinarz & Associates",
     "location": "Edwards, CO",
     "dates": "2008",
     "tools": [
-      "ASP.NET Web Form",
+      "ASP.NET Web Forms",
       "VB.NET",
       "SQL Server",
       "SVN"
@@ -276,6 +298,7 @@
     "description": "Extended an existing website built with SQL Server and ASP.NET for an international law firm. Implemented dynamic data filtering using AJAX partial page post back. Responsible for all aspects of feature implementation from writing SQL queries to page layout using CSS.<hr>"
   }, {
     "company": "DPRA",
+    "client": "",
     "location": "Knoxville, TN",
     "dates": "2005-2008",
     "tools": [
@@ -287,6 +310,7 @@
     "description": "Built a user-friendly interface to perform queries of a logistical plan. Created a tool for editing ship schedules by an operator during logistical exercises. Organized a committee to conduct interviews and gather requirements for Team Foundation Server. Responsible for configuration, deployment and administration of all TFS functions. Designed and built custom TFS Version control client for Visual FoxPro using the managed, .NET client API and COM interop."
   }, {
     "company": "Young & Meade Consulting",
+    "client": "",
     "location": "Knoxville, TN",
     "dates": "2002 - 2005",
     "tools": [
@@ -297,6 +321,7 @@
     "description": "Managed the network for a private school managed proxy firewall, domain controller, webmail, websites, proxy filtering using a linux server. Implemented and extended Horde using php and mysql. Adopted all facets of support for a custom hospitality app used at a country club providing point of sale, billing and back office services. Lead developer in adapting a custom point of sale app for retail distribution. Created a time clock application supporting some very specific and complex business rules which is still in use today, unmodified. Adopted, extended and eventually rewrote an application managing cost of good sold and payroll export to support transparency and accountability for a fast food franchisee with 90+ stores."
   }, {
     "company": "Site Management Services",
+    "client": "",
     "location": "Knoxville, TN",
     "dates": "2000 - 2001",
     "tools": [
@@ -315,30 +340,26 @@
     "date": "1993"
   }],
   "endorsments": [{
-    "namne": "",
+    "namne": "name1",
     "image": "",
-    "content": ""
+    "content": "I am 1."
   }, {
-    "name": "",
+    "name": "name2",
     "image": "",
-    "content": ""
+    "content": "I am 2."
   }, {
-    "name": "",
+    "name": "name3",
     "image": "",
-    "content": ""
+    "content": "I am 3."
   }, {
-    "name": "",
+    "name": "name4",
     "image": "",
-    "content": ""
+    "content": "I am 4."
   }, {
-    "name": "",
+    "name": "name5",
     "image": "",
-    "content": ""
+    "content": "I am 5."
   }],
-  "map": {
-    "lat": "35.935261",
-    "lng": "-83.995762"
-  },
   "contactInfo": {
     "street": "101 Westwood Road",
     "suite": "Suite 212",
@@ -347,7 +368,11 @@
     "zip": "37923",
     "mobile": "865-748-4074",
     "email": "jobs@alanstevens.io",
-    "url": "http://alanstevens.io"
+    "url": "http://alanstevens.io",
+    "map": {
+      "lat": "35.935261",
+      "lng": "-83.995762"
+    }
   },
   "summaryMessage": "I hope you enjoyed reading my resume. I'd love to hear from you. Feel free to contact me about employment opportunities, or any other matter."
 }

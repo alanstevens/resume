@@ -1,0 +1,19 @@
+<!-- intro socialIcons -->
+<div class="row banner">
+  <div class="banner-text">
+    <h1 class="responsive-headline">{{author}}</h1>
+    <h3>{{{intro.description}}}
+      <!-- <br/>Learn more <a class="smoothscroll" href="#about">about me</a>. -->
+    </h3>
+    <hr />
+    <ul class="social">
+      {{#each socialIcons}}
+        {{> social-item data=this}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<p class="scrolldown">
+  <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+</p>
