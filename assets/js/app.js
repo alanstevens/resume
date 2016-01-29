@@ -45,11 +45,11 @@ jQuery(document).ready(function($) {
 
   sections.waypoint({
 
-    handler: function(event, direction) {
+    handler: function(direction) {
 
       var active_section;
 
-      active_section = $(this);
+      active_section = $(this.element);
       if (direction === "up") active_section = active_section.prev();
 
       var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
@@ -192,20 +192,25 @@ jQuery(document).ready(function($) {
   /*	Charts
   ------------------------------------------------------*/
 
-  $('.chart').waypoint(function() {
-    $(this).easyPieChart({
-      barColor: '#11ABB0',
-      scaleColor: false,
-      size: '150',
-      easing: 'easeOutBounce',
-      onStep: function(from, to, percent) {
-        $(this.el).find('.percent').text(Math.round(percent));
-      }
+  var charts = document.querySelectorAll(".chart");
+  for (var i = 0; i < charts.length; i++) {
+    var inview = new Waypoint.Inview({
+      element: charts[i],
+      entered: function(direction) {
+        if (direction === 'down') {
+          $(this.element).easyPieChart({
+            barColor: '#11ABB0',
+            scaleColor: false,
+            size: '150',
+            easing: 'easeOutBounce',
+            onStep: function(from, to, percent) {
+              $(this.el).find('.percent').text(Math.round(percent));
+            }
+          });
+        }
+      },
     });
-  }, {
-    triggerOnce: true,
-    offset: 'bottom-in-view'
-  });
+  }
 
   /*----------------------------------------------------*/
   /*	map

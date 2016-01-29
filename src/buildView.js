@@ -2,9 +2,10 @@ var fs = require("fs");
 var path = require("path");
 var rimraf = require("rimraf");
 var Handlebars = require("handlebars");
-var data = require("./resume.json");
 var templatePath = path.resolve(__dirname, "./index-template.html");
 var templateSource = fs.readFileSync(templatePath, "utf-8");
+var data = require("./resume.json");
+var outputFile = path.resolve(__dirname, "../index.html");
 
 // format skills data for rendering
 data.skillRows = [];
@@ -16,15 +17,14 @@ registerPartials();
 
 var template = Handlebars.compile(templateSource);
 var resumeContent = template(data);
-var fileName = path.resolve(__dirname, "../index.html");
 
-rimraf(fileName,
+rimraf(outputFile,
   function() {
-    fs.writeFile(fileName, resumeContent, function(err) {
+    fs.writeFile(outputFile, resumeContent, function(err) {
       if (err) {
         console.log("ERROR generating resume:\n", err);
       }
-      console.log("SUCCESS! Resume generated to: ", fileName);
+      console.log("SUCCESS! Resume generated to: ", outputFile);
     }); // fs.writeFile
   } // anonymous function
 ); //rimraf
