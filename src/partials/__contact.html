@@ -1,78 +1,77 @@
+<!-- Contact Section -->
+<section id="contact">
 
-  <!-- Contact Section -->
-  <section id="contact">
+  <div class="row section-head">
 
-    <div class="row section-head">
+    <div class="two columns header-col">
 
-      <div class="two columns header-col">
+      <h1>
+        <span>Get In Touch.</span>
+      </h1>
 
-        <h1>
-          <span>Get In Touch.</span>
-        </h1>
+    </div>
 
-      </div>
+    <div class="ten columns">
 
-      <div class="ten columns">
+      <p class="lead">
+        I hope you enjoyed reading my resume. I'd love to hear from you. Feel free to contact me about employment opportunities, or any other matter.
+      </p>
 
-        <p class="lead">
-          I hope you enjoyed reading my resume. I'd love to hear from you. Feel free to contact me about employment opportunities, or any other matter.
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="eight columns">
+
+      <!-- form -->
+      <form class="contact-form" id="contactForm" action="" method="post" name="contactForm">
+
+        <p>
+          <label>
+            <input type="text" name="name" id="contactName" placeholder="Name" class="required">
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="email" name="email" id="contactEmail" placeholder="Email" class="required email">
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="text" name="subject" id="contactSubject" placeholder="Subject" class="required">
+          </label>
+        </p>
+        <p>
+          <label>
+            <textarea name="message" id="contactMessage" placeholder="Your message goes here" class="required"></textarea>
+          </label>
+        </p>
+        <p>
+          <!-- <input type="submit" class="submit" value="SEND"> -->
+          <button class="submit">SEND</button>
+          <span id="image-loader">
+            <img alt="" src="assets/images/loader.gif">
+          </span>
         </p>
 
+      </form>
+      <!-- Form End -->
+
+      <!-- contact-warning -->
+      <div id="message-warning"> There was an error sending.</div>
+      <!-- contact-success -->
+      <div id="message-success">
+        <i class="fa fa-check"></i>Your message was sent, thank you!
+        <br>
       </div>
 
     </div>
 
-    <div class="row">
+    <aside class="four columns footer-widgets">
 
-      <div class="eight columns">
-
-        <!-- form -->
-        <form class="contact-form" id="contactForm" action="" method="post" name="contactForm">
-
-          <p>
-            <label>
-              <input type="text" name="name" id="contactName" placeholder="Name" class="required">
-            </label>
-          </p>
-          <p>
-            <label>
-              <input type="email" name="email" id="contactEmail" placeholder="Email" class="required email">
-            </label>
-          </p>
-          <p>
-            <label>
-              <input type="text" name="subject" id="contactSubject" placeholder="Subject" class="required">
-            </label>
-          </p>
-          <p>
-            <label>
-              <textarea name="message" id="contactMessage" placeholder="Your message goes here" class="required"></textarea>
-            </label>
-          </p>
-          <p>
-            <!-- <input type="submit" class="submit" value="SEND"> -->
-            <button class="submit">SEND</button>
-            <span id="image-loader">
-              <img alt="" src="assets/images/loader.gif">
-            </span>
-          </p>
-
-        </form>
-        <!-- Form End -->
-
-        <!-- contact-warning -->
-        <div id="message-warning"> There was an error sending.</div>
-        <!-- contact-success -->
-        <div id="message-success">
-          <i class="fa fa-check"></i>Your message was sent, thank you!
-          <br>
-        </div>
-
-      </div>
-
-      <aside class="four columns footer-widgets">
-
-        <!-- <div class="widget widget_contact">
+      <!-- <div class="widget widget_contact">
 
           <h4>Address and Phone</h4>
           <p class="address">
@@ -86,7 +85,7 @@
 
         </div> -->
 
-        <!-- <div class="widget widget_tweets">
+      <!-- <div class="widget widget_tweets">
 
           <h4 class="widget-title">Latest Tweets</h4>
 
@@ -109,9 +108,9 @@
 
         </div> -->
 
-      </aside>
+    </aside>
 
-    </div>
+  </div>
 
-  </section>
-  <!-- Contact Section End-->
+</section>
+<!-- Contact Section End-->

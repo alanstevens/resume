@@ -230,6 +230,7 @@
     "description": "Led a five developer team in porting a mature Visual FoxPro application to WPF and SQL Server.<hr>"
   }, {
     "company": "Interactive Intelligence Incorporated",
+    "url": "https://www.inin.com/",
     "client": "",
     "location": "Indianapolis, IN",
     "dates": "2009 - 2010",
@@ -301,6 +302,7 @@
     "description": "Extended an existing website built with SQL Server and ASP.NET for an international law firm. Implemented dynamic data filtering using AJAX partial page post back. Responsible for all aspects of feature implementation from writing SQL queries to page layout using CSS.<hr>"
   }, {
     "company": "DPRA",
+    "url": "http://www.dpra.com/",
     "client": "",
     "location": "Knoxville, TN",
     "dates": "2005-2008",
@@ -324,6 +326,7 @@
     "description": "Managed the network for a private school managed proxy firewall, domain controller, webmail, websites, proxy filtering using a linux server. Implemented and extended Horde using php and mysql. Adopted all facets of support for a custom hospitality app used at a country club providing point of sale, billing and back office services. Lead developer in adapting a custom point of sale app for retail distribution. Created a time clock application supporting some very specific and complex business rules which is still in use today, unmodified. Adopted, extended and eventually rewrote an application managing cost of good sold and payroll export to support transparency and accountability for a fast food franchisee with 90+ stores."
   }, {
     "company": "Site Management Services",
+    "url": "http://wirelesssitesolutions.net/WSS/Welcome.html",
     "client": "",
     "location": "Knoxville, TN",
     "dates": "2000 - 2001",
