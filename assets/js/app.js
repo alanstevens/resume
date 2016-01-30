@@ -193,23 +193,32 @@ jQuery(document).ready(function($) {
   ------------------------------------------------------*/
 
   var charts = document.querySelectorAll(".chart");
+
   for (var i = 0; i < charts.length; i++) {
-    var inview = new Waypoint.Inview({
-      element: charts[i],
+    createInview(charts[i]);
+  }
+
+  function createInview(element) {
+    new Waypoint.Inview({
+      element: element,
       entered: function(direction) {
-        if (direction === 'down') {
-          $(this.element).easyPieChart({
-            barColor: '#11ABB0',
-            scaleColor: false,
-            size: '150',
-            easing: 'easeOutBounce',
-            onStep: function(from, to, percent) {
-              $(this.el).find('.percent').text(Math.round(percent));
-            }
-          });
-        }
-      },
+        onWayPointEntered(direction, this.element);
+      }
     });
+  }
+
+  function onWayPointEntered(direction, element) {
+    if (direction === 'down') {
+      $(element).easyPieChart({
+        barColor: '#11ABB0',
+        scaleColor: false,
+        size: '150',
+        easing: 'easeOutBounce',
+        onStep: function(from, to, percent) {
+          $(this.el).find('.percent').text(Math.round(percent));
+        }
+      });
+    }
   }
 
   /*----------------------------------------------------*/

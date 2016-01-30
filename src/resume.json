@@ -22,6 +22,9 @@
     "name": "bō staff",
     "value": "90"
   }, {
+    "name": "nunchucks",
+    "value": "85"
+  }, {
     "name": "Bootstrap",
     "value": "75"
   }, {
@@ -68,7 +71,8 @@
     "value": ""
   }],
   "experience": [{
-    "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>"
+    "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>",
+    "url": "http://nerdhive.io"
   }, {
     "company": "",
     "client": "Improving",
