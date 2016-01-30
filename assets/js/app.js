@@ -161,12 +161,10 @@ jQuery(document).ready(function($) {
       '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
     $.ajax({
-
       type: "POST",
       url: "inc/sendEmail.php",
       data: data,
       success: function(msg) {
-
         // Message was sent
         if (msg == 'OK') {
           $('#image-loader').fadeOut();
@@ -183,6 +181,8 @@ jQuery(document).ready(function($) {
       },
       error: function(jqXHR, textStatus, errorThrown) {
         $('#image-loader').fadeOut();
+        $('#message-warning').html(errorThrown);
+        $('#message-warning').fadeIn();
       }
     });
     return false;
