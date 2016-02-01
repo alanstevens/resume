@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+
+	{{> head }}
+
+</head>
+
+<body>
+
+	<div id="doc2" class="yui-t7">
+		<div id="inner">
+
+			{{> header }}
+
+			<div id="bd">
+				<div id="yui-main">
+					<div class="yui-b">
+
+						{{> profile}}
+
+					  {{> skills data=skillRows }}
+
+						<!-- > tech  -->
+
+					  {{> experience data=experience }}
+
+					  {{> education data=education }}
+
+						{{> footer }}
+
+					</div>
+					<!--// .yui-b -->
+				</div>
+				<!--// yui-main -->
+			</div>
+			<!--// bd -->
+
+		</div>
+		<!-- // inner -->
+
+	</div>
+	<!--// doc -->
+
+</body>
+</html>

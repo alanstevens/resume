@@ -1,0 +1,17 @@
+<div class="job">
+  {{#if company}}
+    <h2>{{{company}}}</h2>
+  {{/if}}
+  {{#if location}}
+  <div class="experience-header">
+      <h3>{{location}}</h3>
+      <h4>{{dates}}</h4>
+  </div>
+  <ul class="tools">
+    {{#each tools}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+  <p>{{description}}</p>
+  {{/if}}
+</div>

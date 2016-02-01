@@ -96,6 +96,8 @@
       "C#",
       "ASP.NET MVC",
       "Bootstrap",
+      "SQL Server",
+      "Team City",
       "git"
     ],
     "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to their current paper billing customers. Once I had the MVP working, an in house developer joined me to carry it to release."

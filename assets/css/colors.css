@@ -1,0 +1,48 @@
+/*DEFAULT*/
+$name: #FF9;    /*: ins bg*/
+$name: #A7F4F6; /*: mark bg*/
+$name: #838C9;  /*: body*/
+$name: #FFF;    /*: body bg, pagination, buttons*/
+$name: #313131; /*: h1 - h6, a hover & focus, stats tabs*/
+$name: #8B9798; /*: blockquote, site, a:visited, .stats-tab li a b, legend span*/
+$name: #gray;   /*: abbr*/
+$name: #11ABB0; /*: button & input bg, pagination background, a a:visited, dt, .stats-tab li a:hover*/
+$name: #E6E8EB; /*: pagination bg*/
+$name: #A9ADB2; /*: pagination inactive*/
+$name: #3d4145; /*: input/button active hover focus bg, label, legend*/
+$name: #647373; /*: select*/
+$name: #D3D9D9; /*: input bg*/
+$name: #B3B7BC; /*: input focus*/
+$name: #000;    /*: ins*/
+$name: #555;    /*: mark*/
+
+/*LAYOUT*/
+$name: #0f0f0f;  /*: body bg, message bg*/
+$name: #FFF;     /*: white foregrounds and backgrounds*/
+$name: #A8A8A8;  /*: header .banner-text h3*/
+$name: #2F2D2E;  /*: header .banner-text hr border*/
+$name: #11ABB0;  /*: hover and visited on many items*/
+$name: #333;     /*: .opaque (nav bg)*/
+$name: #F06000;  /*: nav current, footer social links li (don’t see it here) (orange)*/
+$name: #2B2B2B;  /*: about bg, hover on some about elements*/
+$name: #7A7A7A;  /*: about p (text)*/
+$name: #444;     /*: about download button bg*/
+$name: #313131;  /*: work & education a hover and focus*/
+$name: #6E7881;  /*:work/education .info*/
+$name: #1F1F1F;  /*: testimonials:after bg*/
+$name: #8B9798;  /*: #testimonials blockquote cite a*/
+$name: #DDD;     /*: flex control paging bg*/
+$name: #CCC;     /*: flex-control-paging li a:hover*/
+$name: #636363;  /*: contact foreground*/
+$name: #EBEEEE;  /*: contact h1 h4*/
+$name: #D72828;  /*: message warning*/
+$name: #474747;  /*: twitter link*/
+$name: #303030;  /*: footer foreground*/
+$name: #525252;  /*: footer links, go to top bg*/
+$name: #095153;  /*: footer copyright before*/
+$name: #0F9095;  /*: go top hover*/
+/*rgba(150, 150, 150, .1) : header .banner-text hr border*/
+/*rgba(255, 255, 255, .7)*/
+/*rgba(255, 255, 255, .9)*/
+/*rgba(255, 255, 255, .1)*/
+/*rgba(255, 255, 255, .3)*/

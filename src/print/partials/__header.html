@@ -1,0 +1,19 @@
+<div id="hd">
+  <div class="yui-gc">
+    <div class="yui-u first">
+      <h1>{{author}}</h1>
+      <h2>{{{intro.description}}}</h2>
+    </div>
+
+    <div class="yui-u">
+      <div class="contact-info">
+        <!-- <h3><a id="pdf" href="#">Download PDF</a></h3> -->
+        <h3><a href="{{contactInfo.email}}">{{contactInfo.email}}</a></h3>
+        <h3>{{contactInfo.mobile}}</h3>
+        {{contactInfo.street}}
+        <br> {{contactInfo.suite}}
+        <br> {{contactInfo.city}}, {{contactInfo.state}} {{contactInfo.zip}}
+      </div><!--// .contact-info -->
+    </div>
+  </div><!--// .yui-gc -->
+</div><!--// hd -->
