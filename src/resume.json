@@ -1,9 +1,9 @@
 {
   "author": "H. Alan Stevens",
   "intro": {
-    "description": "I am an <span>end to end</span> web developer based in Knoxville, Tennessee.<br><span>I solve problems</span>",
+    "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems</span>",
     "profilePic": "head_shot.jpg",
-    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. The majority of my career has been spent in consulting, but I have also worked on small, medium and large teams as an employee as well.</p><p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>"
+    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. The majority of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p><p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>"
   },
   "socialIcons": [{
     "service": "twitter",
@@ -318,7 +318,7 @@
     ],
     "description": "Built a user-friendly interface to perform queries of a logistical plan. Created a tool for editing ship schedules by an operator during logistical exercises. Organized a committee to conduct interviews and gather requirements for Team Foundation Server. Responsible for configuration, deployment and administration of all TFS functions. Designed and built custom TFS Version control client for Visual FoxPro using the managed, .NET client API and COM interop."
   }, {
-    "company": "Young & Meade Consulting",
+    "company": "Young & Mead Consulting",
     "client": "",
     "location": "Knoxville, TN",
     "dates": "2002 - 2005",
@@ -341,12 +341,12 @@
     "description": "Built a system to track and manage cellphone tower sites. Created topographical map overlays to predict signal range. Provided business intelligence to predict new site opportunities."
   }],
   "education": [{
-    "institution": "University of Tennessee",
+    "institution": "University of Tennessee, Knoxville",
     "degree": "MS in Education, Curriculum & Instrucion",
     "date": "1994"
   }, {
-    "institution": "University of Tennessee",
-    "degree": "BA in History",
+    "institution": "University of Tennessee, Knoxville",
+    "degree": "BA in Liberal Arts, History",
     "date": "1993"
   }],
   "endorsments": [{
