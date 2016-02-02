@@ -1,9 +1,10 @@
 {
   "author": "H. Alan Stevens",
   "intro": {
-    "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems</span>",
+    "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
     "profilePic": "head_shot.jpg",
-    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. For the past eight years, I have worked remotely. I have an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. The majority of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p><p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>"
+    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. I work remotely and have for the past eight years. I keep an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. The majority of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p>",
+    "graphicalResume":"<p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>"
   },
   "socialIcons": [{
     "service": "twitter",
@@ -17,46 +18,49 @@
   }, {
     "service": "github",
     "url": "https://github.com/alanstevens"
+  }, {
+    "service": "globe",
+    "url": "http://alanstevens.io"
   }],
   "skills": [{
-    "name": "bō staff",
-    "value": "90"
-  }, {
-    "name": "nunchucks",
-    "value": "85"
-  }, {
-    "name": "Bootstrap",
-    "value": "75"
-  }, {
-    "name": "javascript",
-    "value": "60"
-  }, {
-    "name": "jQuery",
-    "value": "65"
-  }, {
-    "name": "HTML",
-    "value": "80"
-  }, {
-    "name": "CSS",
-    "value": "50"
-  }, {
-    "name": "Ruby",
-    "value": "40"
-  }, {
-    "name": "Ruby on Rails",
-    "value": "55"
-  }, {
     "name": "C#",
     "value": "90"
   }, {
     "name": "ASP.NET",
     "value": "90"
   }, {
+    "name": "Bootstrap",
+    "value": "75"
+  }, {
+    "name": "javascript",
+    "value": "65"
+  }, {
+    "name": "jQuery",
+    "value": "75"
+  }, {
+    "name": "HTML",
+    "value": "80"
+  }, {
+    "name": "CSS",
+    "value": "65"
+  }, {
+    "name": "bō staff",
+    "value": "90"
+  }, {
+    "name": "Ruby",
+    "value": "55"
+  }, {
+    "name": "Ruby on Rails",
+    "value": "65"
+  }, {
     "name": "SQL",
     "value": "55"
   }, {
     "name": "git",
-    "value": "50"
+    "value": "60"
+  }, {
+    "name": "nunchucks",
+    "value": "85"
   }, {
     "name": "public speaking",
     "value": "90"
@@ -66,9 +70,6 @@
   }, {
     "name": "writing",
     "value": "80"
-  }, {
-    "name": "",
-    "value": ""
   }],
   "experience": [{
     "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>",
@@ -377,7 +378,7 @@
     "suite": "Suite 212",
     "city": "Knoxville",
     "state": "TN",
-    "zip": "37923",
+    "zip": "37919",
     "mobile": "865-748-4074",
     "email": "jobs@alanstevens.io",
     "url": "http://alanstevens.io",

@@ -2,28 +2,28 @@ var fs = require("fs");
 var path = require("path");
 var rimraf = require("rimraf");
 var Handlebars = require("handlebars");
+var data = require("./resume.json");
 
-var templateName = "./web/index-template.html";
-var outputPath = "../index.html";
-var partialsPath = "./web/partials";
-buildView(templateName, outputPath, partialsPath);
+// format skills data for rendering
+data.skillRows = [];
+while (data.skills.length) {
+  data.skillRows.push(data.skills.splice(0, 4));
+}
 
 templateName = "./print/index-template.html";
 outputPath = "./../print/index.html";
 partialsPath = "./print/partials";
-buildView(templateName, outputPath, partialsPath);
+buildView(templateName, outputPath, partialsPath, data);
 
-function buildView(templateName, outputPath, partialsPath) {
+var templateName = "./web/index-template.html";
+var outputPath = "../index.html";
+var partialsPath = "./web/partials";
+buildView(templateName, outputPath, partialsPath, data);
+
+function buildView(templateName, outputPath, partialsPath, data) {
   var templatePath = path.resolve(__dirname, templateName);
   var templateSource = fs.readFileSync(templatePath, "utf-8");
-  var data = require("./resume.json");
   var outputFile = path.resolve(__dirname, outputPath);
-
-  // format skills data for rendering
-  data.skillRows = [];
-  while (data.skills.length) {
-    data.skillRows.push(data.skills.splice(0, 4));
-  }
 
   registerPartials(partialsPath);
 
