@@ -80,7 +80,7 @@ function gatherProjects(experience) {
 
   results.forEach(function(parent, index, array) {
     parent.children.forEach(function(child, index, array) {
-      if (index > 2) {
+      if (index > 1) {
         child.hidden = true;
       }
     });

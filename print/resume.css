@@ -210,45 +210,33 @@ a#pdf:hover {
   margin-bottom: 24px;
 }
 .tools {
-  /*margin: 0;*/
-  /*padding: 0;*/
-  /*padding-top: 12px;*/
-  /*margin-top: 4px;*/
-  /*list-style-type: none;*/
-  /*text-align: center;*/
   display: inline-block;
 }
 .tools li {
   display: inline;
-  /*border-bottom: 0px;*/
   border: 1px solid;
   padding: 4px;
   margin: 4px;
-  /*line-height: 24px;*/
 }
-/*.tools li a {
-  text-decoration: none;
-  padding: .2em 1em;
-  color: #fff;
-  background-color: #036;
-  border-bottom: 0px;
-}
-.tools li a:hover {
-  color: #fff;
-  background-color: #369;
-}*/
-
 .experience-header {
   padding-bottom: 12px;
 }
-
 #aboutMe p {
   margin-bottom: 8px;
   padding-bottom: 8px;
 }
-
 #profile {
-  /*margin-bottom: 0px;*/
   padding-bottom: 0px;
-
 }
+#experience p.hidden-project {
+  color: #333;
+  /*font-size: 122%;*/
+  font-style: italic;
+  margin: 0 0 8px 0;
+  /*border-bottom: 1px solid #ccc;*/
+  padding-bottom: 4px;
+  /*border-top: none;*/
+}
+/*#experience p.hidden-project:last-of-type {
+  margin-bottom: 26px;
+}*/

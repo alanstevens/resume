@@ -352,6 +352,10 @@ ul#nav li.current a {
   font-size: .8em;
 }
 
+span.chart h3 {
+  margin-top: none;
+}
+
 /* ------------------------------------------------------------------ */
 
 
@@ -1261,6 +1265,9 @@ footer p {
 }
 .hidden-project-header {
   cursor: pointer;
+}
+.hidden-project-header:hover {
+  color: #11ABB0 !important;
 }
 .project {
 }
