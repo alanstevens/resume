@@ -10,6 +10,8 @@ while (data.skills.length) {
   data.skillRows.push(data.skills.splice(0, 4));
 }
 
+gatherProjects(data.experience);
+
 templateName = "./print/index-template.html";
 outputPath = "./../print/index.html";
 partialsPath = "./print/partials";
@@ -57,5 +59,30 @@ function registerPartials(partialsPath) {
 
     });
     Handlebars.registerPartial(partialName, partialContent);
+  });
+}
+
+function gatherProjects(experience) {
+
+  var current = {};
+  var results = [];
+  for (var i = 0; i < experience.length; i++) {
+    var item = experience[i];
+    item.children = [];
+    item.hidden = false;
+    if (item.company !== "") {
+      current = experience[i];
+      results.push(current);
+    } else {
+      current.children.push(experience[i]);
+    }
+  }
+
+  results.forEach(function(parent, index, array) {
+    parent.children.forEach(function(child, index, array) {
+      if (index > 2) {
+        child.hidden = true;
+      }
+    });
   });
 }

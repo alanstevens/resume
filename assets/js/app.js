@@ -342,4 +342,19 @@ jQuery(document).ready(function($) {
       icon: "assets/images/Google-Map-marker-revised-bubble-small.png",
     });
   }
+
+  collapseProjects();
+
+  // hidden projects
+  function collapseProjects() {
+    var headers = $('.hidden-project-header');
+
+    headers.each(function() {
+      var target = $(this).siblings('.hidden-project');
+      $(this).click(function() {
+        target.slideToggle('slow');
+      });
+    });
+  }
+
 });
