@@ -146,7 +146,7 @@ a#pdf:hover {
   position: relative;
   margin-bottom: 1em;
   /*padding-bottom: 1em;*/
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
 }
 .job h4 {
   position: absolute;
@@ -155,7 +155,7 @@ a#pdf:hover {
 }
 .job p {
   /*margin: 0.75em 0 3em 0;*/
-  margin: 0.75em 0 2em 0;
+  margin: 0.75em 0 0 0;
 }
 .last {
   border: none;
@@ -211,6 +211,7 @@ a#pdf:hover {
 }
 .tools {
   display: inline-block;
+  margin-top: 0.75em;
 }
 .tools li {
   display: inline;
@@ -219,7 +220,7 @@ a#pdf:hover {
   margin: 4px;
 }
 .experience-header {
-  padding-bottom: 12px;
+  /*padding-bottom: 12px;*/
 }
 #aboutMe p {
   margin-bottom: 8px;
@@ -240,3 +241,29 @@ a#pdf:hover {
 /*#experience p.hidden-project:last-of-type {
   margin-bottom: 26px;
 }*/
+
+.project {
+  position: relative;
+  /*margin-bottom: 1em;*/
+  /*padding-bottom: 1em;*/
+  /*border-bottom: 1px solid #ccc;*/
+  padding: 0.5em 0 0 0;
+  font-style: italic;
+}
+.project h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0
+}
+.project p {
+  /*margin: 0.75em 0 3em 0;*/
+  /*margin: 0.5em 0 2em 0;*/
+}
+.job-wrapper{
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+.job-wrapper h2{
+  padding-bottom: 0.5em;
+}

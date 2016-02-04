@@ -1,17 +1,11 @@
-{{#if hidden}}
-  <div class="job">
-  <!-- <p class="hidden-project"><h4>{{location}}&nbsp;&bull;&nbsp;{{dates}}</h4></p> -->
-    <div class="experience-header">
-        <h3>{{location}}</h3>
-        <h4>{{dates}}</h4>
-    </div>
-  </div>
-{{else}}
-  <div class="job">
-    {{#if company}}
-      <h2>{{{company}}}</h2>
-    {{/if}}
-    {{#if location}}
+<div class="job-wrapper">
+  <h2>{{{company}}}</h2>
+  {{#if hasChildren}}
+    {{#each children}}
+      {{>project data=this}}
+    {{/each}}
+  {{else}}
+    <div class="job">
       <div class="experience-header">
           <h3>{{location}}</h3>
           <h4>{{dates}}</h4>
@@ -22,6 +16,6 @@
         {{/each}}
       </ul>
       <p>{{description}}</p>
-    {{/if}}
-  </div>
-{{/if}}
+    </div>
+  {{/if}}
+</div>

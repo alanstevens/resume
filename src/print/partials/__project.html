@@ -1,0 +1,22 @@
+
+{{#if hidden}}
+  <div class="project">
+    <div class="experience-header">
+      <h3>{{location}}</h3>
+      <h4>{{dates}}</h4>
+    </div>
+  </div>
+{{else}}
+  <div class="job">
+    <div class="experience-header">
+      <h3>{{location}}</h3>
+      <h4>{{dates}}</h4>
+    </div>
+    <ul class="tools">
+      {{#each tools}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    <p>{{description}}</p>
+  </div>
+{{/if}}
