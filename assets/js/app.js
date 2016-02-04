@@ -351,8 +351,11 @@ jQuery(document).ready(function($) {
 
     headers.each(function() {
       var target = $(this).siblings('.hidden-project');
+      var header = $(this);
       $(this).click(function() {
-        target.slideToggle('slow');
+        target.slideToggle('slow', 'swing', function(){
+          header.children('i').toggleClass("fa-angle-down fa-angle-up");
+        });
       });
     });
   }
