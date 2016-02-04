@@ -1,25 +1,18 @@
 <section id="work">
-  <!-- created a seperate row because title was wrapping -->
-  <div class="row title">
-    <div class="six columns header-col">
-      <h1>
-        <span>Professional Experience</span>
-      </h1>
-    </div>
-  </div>
+
   <!-- Work -->
   <div class="row work">
     <!-- title hearder -->
     <div class="three columns header-col">
-      <!-- <h1>
-          <span>Professional Experience</span>
-        </h1> -->
+        <span><h1>Professional<br> Experience</h1></span>
     </div>
     <!-- end title hearder -->
     <div class="nine columns main-col">
       <!-- =============================== Start of Professional Experience ================================   -->
       {{#each data}}
+        <div class="experience-wrapper">
           {{> experience-item data=this}}
+        </div>
       {{/each}}
       <!-- ================================= End of Professional Experience ================================   -->
     </div>

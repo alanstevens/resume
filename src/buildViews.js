@@ -10,7 +10,7 @@ while (data.skills.length) {
   data.skillRows.push(data.skills.splice(0, 4));
 }
 
-gatherProjects(data.experience);
+data.projects = gatherProjects(data.experience);
 
 templateName = "./print/index-template.html";
 outputPath = "./../print/index.html";
@@ -69,12 +69,14 @@ function gatherProjects(experience) {
   for (var i = 0; i < experience.length; i++) {
     var item = experience[i];
     item.children = [];
+    item.hasChildren = false;
     item.hidden = false;
     if (item.company !== "") {
-      current = experience[i];
+      current = item;
       results.push(current);
     } else {
-      current.children.push(experience[i]);
+      current.hasChildren = true;
+      current.children.push(item);
     }
   }
 
@@ -85,4 +87,6 @@ function gatherProjects(experience) {
       }
     });
   });
+
+  return results;
 }

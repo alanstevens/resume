@@ -316,9 +316,12 @@ ul#nav li.current a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#skills h1 span {
+#skills span h1 {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
+}
+#skills .row.title{
+  margin-bottom: -60px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -381,7 +384,7 @@ span.chart h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#work h1 span, #education h1 span {
+#work span h1, #education span h1 {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
@@ -390,9 +393,6 @@ span.chart h3 {
   font-size: 25px;
   line-height: 30px;
   font-weight: 700;
-}
-#work .uber-heading {
-  margin-left: -20px;
 }
 #work .header-col, #education .header-col {
   padding-top: 9px;
@@ -1253,7 +1253,9 @@ footer .social-links li:first-child {
 }
 
 /*extra styles*/
-
+#work .uber-heading {
+  /*margin-left: -20px;*/
+}
 #work .title, #education .title {
   background: #fff;
   padding-bottom: 45px;
@@ -1263,8 +1265,14 @@ footer p {
   font-size: 24px;
   margin-top: 30px;
 }
-.hidden-project-header {
+.project-header {
   cursor: pointer;
+  margin-top: 30px;
+}
+.hidden-project-header {
+  cursor: pointer !important;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .hidden-project-header:hover {
   color: #11ABB0 !important;
@@ -1273,4 +1281,13 @@ footer p {
 }
 .hidden-project {
   display: none;
+}
+.experience-wrapper{
+  margin-bottom: 30px;
+}
+.experience-wrapper p{
+  /*margin-bottom: 0px;*/
+}
+.project-wrapper {
+  /*margin-top: 30px;*/
 }

@@ -1,0 +1,32 @@
+<div class="row item">
+  <div class="twelve columns">
+      <div class="project-wrapper"> <!-- project-wrapper -->
+
+        {{#if hidden}}
+        <p class="info hidden-project-header">
+        {{else}}
+        <p class="info">
+        {{/if}}
+          {{location}}
+          <span>&bull;</span>
+          <em class="date">{{dates}}</em>
+        </p>
+
+        {{#if hidden}}
+        <div class="project hidden-project"><!-- project div -->
+        {{else}}
+        <div class="project"><!-- project div -->
+        {{/if}}
+          <ul class="tools">
+            {{#each tools}}
+              <li class="tool-item ">{{this}}</li>
+            {{/each}}
+          </ul>
+          <p>
+            {{description}}
+          </p>
+        </div><!-- project div end -->
+
+      </div> <!-- end parent wrapper -->
+  </div> <!-- div twelve columns end -->
+</div> <!-- row item end -->

@@ -1,43 +1,16 @@
 <!--------------------------- start of record ------------------------------->
-<div class="row item">
-  <div class="twelve columns">
-    {{#if company}}
-      {{#if url}}
-        <h3 class="uber-heading"><a href="{{url}}">{{{company}}}</a></h3>
-      {{else}}
-        <h3 class="uber-heading">{{{company}}}</h3>
-      {{/if}}
-    {{/if}}
-    {{#if location}}
-    <div> <!-- parent wrapper -->
-
-      {{#if hidden}}
-      <p class="info hidden-project-header">
-      {{else}}
-      <p class="info">
-      {{/if}}
-        {{location}}
-        <span>&bull;</span>
-        <em class="date">{{dates}}</em>
-      </p>
-
-      {{#if hidden}}
-      <div class="project hidden-project"><!-- project div -->
-      {{else}}
-      <div class="project"><!-- project div -->
-      {{/if}}
-        <ul class="tools">
-          {{#each tools}}
-            <li class="tool-item ">{{this}}</li>
-          {{/each}}
-        </ul>
-        <p>
-          {{description}}
-        </p>
-      </div><!-- project div end -->
-
-    </div> <!-- end parent wrapper -->
-    {{/if}}
-  </div> <!-- div twelve columns end -->
-</div> <!-- row item end -->
+{{#if company}}
+  {{#if url}}
+    <h3 class="uber-heading"><a href="{{url}}">{{{company}}}</a></h3>
+  {{else}}
+    <h3 class="uber-heading">{{{company}}}</h3>
+  {{/if}}
+{{/if}}
+{{#if data.hasChildren}}
+    {{#each data.children}}
+        {{> project data=this}}
+    {{/each}}
+{{else}}
+    {{> project }}
+{{/if}}
 <!--------------------------- end of record ------------------------------->
