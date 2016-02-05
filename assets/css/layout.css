@@ -41,8 +41,8 @@ header {
   min-height: 500px;
   width: 100%;
   /*background: #161415 url(../images/writing.png) no-repeat top center;*/
-  /*background-color: #161415;*/
-  background-color: #444;
+  background-color: #161415;
+  /*background-color: #444;*/
   background-image: url(../images/writing.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -79,7 +79,7 @@ header .banner-text h1 {
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  /*text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);*/
 }
 header .banner-text h3 {
   font-family: 'Libre Baskerville', serif;
@@ -89,7 +89,7 @@ header .banner-text h3 {
   color: #FFF;
   margin: 0 auto;
   width: 70%;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  /*text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);*/
 }
 header .banner-text h3 span, header .banner-text h3 a {
   color: #fff;
@@ -107,7 +107,7 @@ header .social {
   margin: 24px 0;
   padding: 0;
   font-size: 30px;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+  /*text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);*/
 }
 header .social li {
   display: inline-block;
@@ -259,8 +259,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -320,7 +320,7 @@ ul#nav li.current a {
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
 }
-#skills .row.title{
+#skills .row.title {
   margin-bottom: -60px;
 }
 
@@ -354,7 +354,6 @@ ul#nav li.current a {
   margin-left: 0.1em;
   font-size: .8em;
 }
-
 span.chart h3 {
   margin-top: none;
 }
@@ -412,8 +411,12 @@ span.chart h3 {
   font-weight: 400;
   font-style: italic;
   color: #6E7881;
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
+  margin-bottom: 0px;
   margin-top: 9px;
+}
+#education .info {
+  margin-bottom: 18px;
 }
 #work .info span, #education .info span {
   margin-right: 5px;
@@ -1253,6 +1256,7 @@ footer .social-links li:first-child {
 }
 
 /*extra styles*/
+
 #work .uber-heading {
   /*margin-left: -20px;*/
 }
@@ -1277,17 +1281,56 @@ footer p {
 .hidden-project-header:hover {
   color: #11ABB0 !important;
 }
-.project {
+.project p {
+  margin-bottom: 0px;
 }
 .hidden-project {
   display: none;
 }
-.experience-wrapper{
+.experience-wrapper {
   margin-bottom: 30px;
 }
-.experience-wrapper p{
-  /*margin-bottom: 0px;*/
+.tools {
+  /*margin: 36px auto;*/
+  text-align: left;
+  margin: 18px 0;
+  padding: 0;
 }
-.project-wrapper {
-  /*margin-top: 30px;*/
+.tools .tool-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 6px 10px;
+  margin-right: 3px;
+  margin-bottom: 6px;
+  color: #6E757C;
+  background-color: #E6E8EB;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+.tools .tool-item {
+  /*background-color: #E6E8EB;*/
+  background-color: #A9ADB2;
+  /*background-color: #6E757C;*/
+  /*background-color: #838A91;*/
+  color: #fff;
+}
+/*this is only valid while we are only showing two full projects*/
+.experience-wrapper div:nth-child(4) {
+  margin-top: 1em!important;
+}
+.hidden-project {
+  margin-bottom: 1em;
+}
+.child-projects {
+  margin-bottom: 2em!important;
 }

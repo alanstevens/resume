@@ -1,15 +1,16 @@
 <!--------------------------- start of record ------------------------------->
-{{#if company}}
-  {{#if url}}
-    <h3 class="uber-heading"><a href="{{url}}">{{{company}}}</a></h3>
-  {{else}}
-    <h3 class="uber-heading">{{{company}}}</h3>
-  {{/if}}
+{{#if url}}
+  <h3 class="uber-heading"><a href="{{url}}">{{{company}}}</a></h3>
+{{else}}
+  <h3 class="uber-heading">{{{company}}}</h3>
 {{/if}}
+
 {{#if data.hasChildren}}
+  <!-- <div class="child-projects"> -->
     {{#each data.children}}
-        {{> project data=this}}
+      {{> project data=this}}
     {{/each}}
+  <!-- <div> <!-- end child-projects --> 
 {{else}}
     {{> project }}
 {{/if}}
