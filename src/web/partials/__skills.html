@@ -1,13 +1,25 @@
 <!-- Skills Section -->
 <section id="skills">
-  <!-- created a seperate row because title was wrapping -->
   <div class="row title">
     <div class="three columns header-col">
-        <span><h1>Skills</h1></span>
+      <span><h1>Skills</h1></span>
     </div>
   </div>
-  {{#each data}}
-    {{> skill-row data=this}}
-  {{/each}}
+  <div id="skills-desktop">
+    {{#each data}}
+      {{> skill-row data=this}}
+    {{/each}}
+  </div>
+  <!-- skills-desktop -->
+  <div id="skills-mobile">
+      <dl id="chart">
+        {{#each data}}
+          {{#each this}}
+            {{> mobile-chart-row data=this}}
+          {{/each}}
+        {{/each}}
+      </dl>
+  </div>
+  <!-- skills-mobile -->
 </section>
 <!-- End of Skills Section -->

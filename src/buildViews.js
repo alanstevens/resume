@@ -4,6 +4,9 @@ var rimraf = require("rimraf");
 var Handlebars = require("handlebars");
 var data = require("./resume.json");
 
+data.skills.forEach(function(element, index, array){
+  element.safeName = element.name.replace(/ /g,'').replace('.','').replace('#','sharp');
+})
 // format skills data for rendering
 data.skillRows = [];
 while (data.skills.length) {

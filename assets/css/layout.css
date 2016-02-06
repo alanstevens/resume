@@ -357,6 +357,16 @@ ul#nav li.current a {
 span.chart h3 {
   margin-top: none;
 }
+#skills-desktop {
+  display: block;
+  /*display: none;*/
+  visibility: visible;
+  /*visibility: hidden;*/
+}
+#skills-mobile {
+  display: none;
+  visibility: hidden;
+}
 
 /* ------------------------------------------------------------------ */
 
@@ -1324,7 +1334,9 @@ footer p {
   /*background-color: #838A91;*/
   color: #fff;
 }
+
 /*this is only valid while we are only showing two full projects*/
+
 .experience-wrapper div:nth-child(4) {
   margin-top: 1em!important;
 }
@@ -1333,4 +1345,55 @@ footer p {
 }
 .child-projects {
   margin-bottom: 2em!important;
+}
+
+/* ============================ bar charts ============================ */
+
+#chart {
+  /*width:520px;*/
+  width: 100%;
+}
+#chart dt {
+  /*width:160px;*/
+  width: 80px;
+  float: left;
+  margin: 0 20px 5px 0;
+  padding: 2px 0;
+  display: inline;
+  font-weight: bold;
+  text-align: right;
+  color: #000;
+}
+#chart dd {
+  /*width:339px;*/
+  width: 75%;
+  border-right: 1px solid #ddd;
+  float: left;
+  margin-bottom: 5px;
+  display: inline;
+}
+#chart dd span {
+  color: #fff;
+  /*background:#09f;*/
+  background: #11ABB0;
+  /*background: #A9ADB2;*/
+  text-align: center;
+  padding: 2px 0;
+  display: block;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  /*background:-webkit-gradient(linear, left top, ->
+  left bottom, from(#09f), to(#077fd0));*/
+  -webkit-box-reflect: below 0 -> -webkit-gradient(linear, left top, -> left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.25)));
+}
+.chart-bar {
+  /* Define animation styles for all bars at once */
+  -webkit-animation-duration: 0.5s;
+  /* Animation duration in seconds */
+  -webkit-animation-iteration-count: 1;
+  /* Amount of times to loop */
+  -webkit-animation-timing-function: ease-out;
+  /* Ease in, out etc. */
 }

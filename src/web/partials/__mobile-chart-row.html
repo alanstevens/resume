@@ -1,0 +1,31 @@
+<div class="row skills">
+  <!-- <div class="three columns header-col">
+  </div> -->
+  <div class="twelve columns main-col">
+    <div class="row item">
+      <div class="twelve columns">
+          <dt>{{name}}</dt>
+          <dd><span class="chart-bar" id="data-{{safeName}}">{{value}}%</span></dd>
+      </div>
+    </div>
+    <!-- item end -->
+  </div>
+  <!-- main-col end -->
+</div>
+<!-- End skills row -->
+<style>
+  #data-{{safeName}}{
+    width:{{value}}%;
+  }
+  #data-{{safeName}}{
+    -webkit-animation-name:bar-{{safeName}}; /* Give the bar an animation with a unique name */
+  }
+  @-webkit-keyframes bar-{{safeName}}{
+    0%{ /* Define bar-one styles at 0% (0 seconds) */
+      width:0%;
+    }
+    100%{ /* Define bar-one styles at 100% (0.5 seconds) */
+      width:{{value}}%;
+    }
+  }
+</style>
