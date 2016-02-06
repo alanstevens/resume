@@ -34,10 +34,6 @@
     display: block!important;
     visibility: visible!important;
   }
-  #chart dt {
-    /* this doesn't fucking work! */
-    /*text-align: left!important;*/
-  }
   #skills .row.title {
     margin-bottom: 0px!important;
   }
@@ -399,6 +395,13 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+  #chart dt {
+    /* this doesn't fucking work! */
+    text-align: left!important;
+  }
+  #chart dd {
+    width: 100%!important;
+  }
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap ul#nav {
