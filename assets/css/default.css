@@ -585,7 +585,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
   display: block;
   /*padding: 18px 15px;*/
   padding: 0 15px;
-  height: 64px;
   margin: 0 0 24px 0;
   border: 0;
   outline: none;

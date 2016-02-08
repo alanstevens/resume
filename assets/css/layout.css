@@ -1389,14 +1389,17 @@ footer p {
   border-radius: 2px;
   /*background:-webkit-gradient(linear, left top, ->
   left bottom, from(#09f), to(#077fd0));*/
-  -webkit-box-reflect: below 0 -> -webkit-gradient(linear, left top, -> left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.25)));
+  /*-webkit-box-reflect: below 0 -> -webkit-gradient(linear, left top, -> left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.25)));*/
 }
 .chart-bar {
   /* Define animation styles for all bars at once */
-  -webkit-animation-duration: 0.5s;
   /* Animation duration in seconds */
-  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   /* Amount of times to loop */
-  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
   /* Ease in, out etc. */
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
