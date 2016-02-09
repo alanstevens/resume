@@ -259,8 +259,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 180px;
-  height: 180px;
+  max-width: 215px;
+  max-height: 215px;
   border-radius: 100%;
 }
 #about .contact-details {
