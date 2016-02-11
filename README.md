@@ -8,10 +8,10 @@ This document is based on the [Ceevee](http://www.styleshout.com/free-templates/
 
 Any code derived from those sources is licensed under their original license. My enhancements alone are licensed under Creative Commons.
 
-Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to build my html from a json data file with handlebars.
+Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to build my html from a json data file using handlebars.
 
 #### TODO
-get jquery placeholder shim working for older versions of IE
+get jquery placeholder shim working for older versions of IE  
 fix font in contact textarea in IE  
 fix the social ul on mobile  
 request endorsements  
