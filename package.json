@@ -4,11 +4,11 @@
   "description": "==================================================================================================",
   "license": "ISC",
   "author": "H. Alan Stevens",
-  "main": "assets/js/app.js"
+  "main": "assets/js/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com:alanstevens/resume"
-  },,
+  },
   "scripts": {
     "build:dist": "npm run clean -s; npm run mkdirs -s; npm run build; npm run min:all -s; npm run copyassets -s;",
     "build": "npm run build:html; npm run jshint;",

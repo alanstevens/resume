@@ -17,19 +17,19 @@ fix the social ul on mobile
 request endorsements  
 add a waypoint for bar graphs  
 add an explanation of skills scores  
-add resume link to bottom of print version  
 Make menu render with an opaque background on refresh  
 split css into partials  
 write honors  
-write hobbies  
 Add glyphs to section headers (print only?)  
-Write up what I’m looking for.  
 find some content for the right column of the contact form.  
 add a link to the speaker deck page  
 do a push state to update the hash in the url  
 make menu highlight change quicker when scrolling up  
 configure Capistrano deploy  
 
+~~Write up what I’m looking for.~~  
+~~write hobbies~~  
+~~add resume link to bottom of print version~~  
 ~~write a readme~~  
 ~~headshot doesn’t shrink in proportion~~  
 ~~fix contact form on firefox~~  
