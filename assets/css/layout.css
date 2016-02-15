@@ -344,44 +344,23 @@ ul#nav li.current a {
   display: none;
   visibility: hidden;
 }
-
-
 #about-skills{
   display: block;
   display: none;
-  /*height: 120px;*/
-  /*margin-bottom: 30px;*/
   margin-bottom: 30px;
   border: 1px solid;
 }
-#about-skills .main-col{
-  /*height: 120px;*/
-  /*margin-bottom: 30px;*/
-  /*margin: 0;*/
-}
-#about-skills p{
+#about-skills p {
   font-family: 'Libre Baskerville', serif;
-  /*display: inline-block;*/
   margin: 30px 0;
-  /*padding: 0;*/
 }
-
 #skills-help-button {
-  font-size: 1.2em;
   cursor: pointer;
-  /*color: black;*/
   color: #11ABB0;
 }
-/*#skills-help-button:hover {*/
-  /*color: #11ABB0;*/
-  /*content: "\f128";*/
+/*#skills-help-button:hover .fa-question-circle:before{*/
+  /*content:" \f128";*/
 /*}*/
-#skills-help-button:hover .fa-question-circle:before{
-  content:"\f128";
-  color: #11ABB0;
-  /*color:green;
-  opacity:0.4;*/
-}
 
 /* ------------------------------------------------------------------ */
 

@@ -363,7 +363,7 @@ jQuery(document).ready(function($) {
   expandSkillsHelp();
 
   function expandSkillsHelp(){
-      var btn = $("#skills-help-button");
+      var btn = $("#skills-help-button i");
       var aboutSkills = $("#about-skills");
 
       aboutSkills.css("height", aboutSkills.height());

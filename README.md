@@ -11,13 +11,12 @@ Any code derived from those sources is licensed under their original license. My
 Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to build my html from a json data file using handlebars.
 
 #### TODO
-maps placeholder doesn't render on mobile
+maps marker doesn't render on mobile
 fix serif font in landing in IE  
 fix font in contact textarea in IE  
 fix the social ul on mobile  
 request endorsements  
 add a waypoint for bar graphs  
-add an explanation of skills scores  
 Make menu render with an opaque background on refresh  
 split css into partials  
 write honors  
@@ -28,6 +27,7 @@ do a push state to update the hash in the url
 make menu highlight change quicker when scrolling up  
 configure Capistrano deploy  
 
+~~add an explanation of skills scores~~  
 ~~get jquery placeholder shim working for older versions of IE~~  
 ~~Write up what I’m looking for.~~  
 ~~write hobbies~~  
