@@ -2,24 +2,28 @@
 <section id="skills">
   <div class="row title">
     <div class="three columns header-col">
-      <span><h1>Skills</h1></span>
+      <span><h1>Skills&nbsp;<i id="skills-help-button" class="fa fa-question-circle"></i></h1></span>
     </div>
+    <div id="about-skills" class="nine columns main-col">
+      <div class="row item">
+        <div class="twelve columns">
+          <p>{{skillsDescription}}</p>
+        </div>
+      </div> <!-- item end -->
+    </div> <!-- main-col end -->
   </div>
   <div id="skills-desktop">
-    {{#each data}}
+    {{#each skillRows}}
       {{> skill-row data=this}}
     {{/each}}
-  </div>
-  <!-- skills-desktop -->
+  </div> <!-- skills-desktop -->
   <div id="skills-mobile">
       <dl id="chart">
-        {{#each data}}
+        {{#each skillRows}}
           {{#each this}}
             {{> mobile-chart-row data=this}}
           {{/each}}
         {{/each}}
       </dl>
-  </div>
-  <!-- skills-mobile -->
-</section>
-<!-- End of Skills Section -->
+  </div> <!-- skills-mobile -->
+</section> <!-- End of Skills Section -->

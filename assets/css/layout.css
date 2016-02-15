@@ -334,6 +334,54 @@ ul#nav li.current a {
 #skills .row.title {
   margin-bottom: -60px;
 }
+#skills-desktop {
+  display: block;
+  /*display: none;*/
+  visibility: visible;
+  /*visibility: hidden;*/
+}
+#skills-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+
+#about-skills{
+  display: block;
+  display: none;
+  /*height: 120px;*/
+  /*margin-bottom: 30px;*/
+  margin-bottom: 30px;
+  border: 1px solid;
+}
+#about-skills .main-col{
+  /*height: 120px;*/
+  /*margin-bottom: 30px;*/
+  /*margin: 0;*/
+}
+#about-skills p{
+  font-family: 'Libre Baskerville', serif;
+  /*display: inline-block;*/
+  margin: 30px 0;
+  /*padding: 0;*/
+}
+
+#skills-help-button {
+  font-size: 1.2em;
+  cursor: pointer;
+  /*color: black;*/
+  color: #11ABB0;
+}
+/*#skills-help-button:hover {*/
+  /*color: #11ABB0;*/
+  /*content: "\f128";*/
+/*}*/
+#skills-help-button:hover .fa-question-circle:before{
+  content:"\f128";
+  color: #11ABB0;
+  /*color:green;
+  opacity:0.4;*/
+}
 
 /* ------------------------------------------------------------------ */
 
@@ -367,16 +415,6 @@ ul#nav li.current a {
 }
 span.chart h3 {
   margin-top: none;
-}
-#skills-desktop {
-  display: block;
-  /*display: none;*/
-  visibility: visible;
-  /*visibility: hidden;*/
-}
-#skills-mobile {
-  display: none;
-  visibility: hidden;
 }
 
 /* ------------------------------------------------------------------ */
