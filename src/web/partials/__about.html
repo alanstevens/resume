@@ -18,35 +18,35 @@
 
       <p>I developed a graphical resume so that you can quickly see the scope of my career. Please download it and take a look.</p>
 
-      <div class="row">
-
         <!-- <div class="columns contact-details">
 
             <h2>Contact Details</h2>
             <p class="address">
-              <span>H. Alan Stevens</span>
+              <span>{{contactInfo.author}}</span>
               <br>
               <span>
-                101 Westwood Road
-                <br> Suite 212
-                <br/> Knoxville, TN 37919
+                {{contactInfo.street}}
+                <br> {{contactInfo.suite}}
+                <br/> {{contactInfo.city}}, {{contactInfo.state}} {{contactInfo.zip}}
               </span>
               <br>
-              <span>865-748-4074</span>
+              <span>{{contactInfo.mobile}}</span>
               <br>
-              <span>jobs@alanstevens.io</span>
+              <span>{{contactInfo.email}}</span>
             </p>
 
-          </div> -->
+        </div> -->
+
+      <div class="row">
 
         <div class="columns download">
           <p>
-            <a href="assets/files/graphical_resume.pdf" class="button"><i class="fa fa-download"></i>Download My<br>Graphical Resume</a>
+            <a href="assets/files/graphical_resume.pdf" class="button"><i class="fa fa-download"></i>Download Graphical Resume</a>
           </p>
         </div>
         <div class="columns download">
           <p>
-            <a href="print/index.html" class="button"><i class="fa fa-print"></i>Print<br>This Resume</a>
+            <a href="print/index.html" class="button"><i class="fa fa-print"></i>Print This Resume</a>
           </p>
         </div>
 

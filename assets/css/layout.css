@@ -35,6 +35,7 @@ body {
   background: #f00;
   color: #fff;
   padding: 1rem 1.5rem;
+  clear:both;
 
   a, a:hover {
     color: #fff;
@@ -285,6 +286,7 @@ ul#nav li.current a {
 #about .download .button {
   margin-top: 6px;
   background: #444;
+  width: 100%;
 }
 #about .download .button:hover {
   background: #fff;
