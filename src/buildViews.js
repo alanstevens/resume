@@ -15,14 +15,14 @@ while (data.skills.length) {
 
 data.projects = gatherProjects(data.experience);
 
-templateName = "./print/index-template.html";
-outputPath = "./../print/index.html";
-partialsPath = "./print/partials";
+var templateName = "./print/index-template.html";
+var outputPath = "./../print/index.html";
+var partialsPath = "./print/partials";
 buildView(templateName, outputPath, partialsPath, data);
 
-var templateName = "./web/index-template.html";
-var outputPath = "../index.html";
-var partialsPath = "./web/partials";
+templateName = "./web/index-template.html";
+outputPath = "../index.html";
+partialsPath = "./web/partials";
 buildView(templateName, outputPath, partialsPath, data);
 
 function buildView(templateName, outputPath, partialsPath, data) {

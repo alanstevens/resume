@@ -4,7 +4,7 @@
     "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
     "profilePic": "head_shot.jpg",
     "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. I work remotely and have for the past eight years. I keep an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past fifteen years. Much of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p>",
-    "hobbies": "<p>I am passionate about Open Space Technology. I have facilitated open spaces since 2008 and I continue to facilitate several spaces every year. For more information about Open Space Technology, take a look at <a href='https://channel9.msdn.com/Events/Seth-on-the-Road/That-Conference-2015/T031'>this interview</a> I gave about the topic in 2015.</p><p>I like to relax by singing and playing my acoustic guitar.</p>"
+    "hobbies": "<p>I am passionate about Open Space Technology. I have facilitated open spaces since 2008 and I continue to facilitate several spaces every year. For more information about Open Space Technology, take a look at <a href='https://channel9.msdn.com/Events/Seth-on-the-Road/That-Conference-2015/T031'>this interview</a> I gave about the topic in 2015.</p><p>I like to relax by singing and playing my acoustic guitar.&nbsp;<i class='fa fa-music'></i></p>"
   },
   "socialIcons": [
     {
@@ -403,29 +403,49 @@
   ],
   "endorsments": [
     {
-      "namne": "name1",
+      "namne": "",
       "image": "",
-      "content": "I am 1."
+      "content": "Perfection is never an option."
     },
     {
-      "name": "name2",
+      "name": "",
       "image": "",
-      "content": "I am 2."
+      "content": "Building the right thing is always more important than building it right."
     },
     {
-      "name": "name3",
+      "name": "",
       "image": "",
-      "content": "I am 3."
+      "content": "The purpose of software is to empower people."
     },
     {
-      "name": "name4",
+      "name": "",
       "image": "",
-      "content": "I am 4."
+      "content": "If you don't trust your employees, then fire them."
     },
     {
-      "name": "name5",
+      "name": "",
       "image": "",
-      "content": "I am 5."
+      "content": "It doesn't matter how well you build the wrong thing."
+    },
+    {
+      "name": "",
+      "image": "",
+      "content": "The goal is progress, not perfection."
+    },
+    {
+      "name": "",
+      "image": "",
+      "content": "I can teach you everything I need you to know, except how to care."
+    },
+    {
+      "name": "",
+      "image": "",
+      "content": "Quality is building it right. Design is building the right thing."
+    },
+    {
+      "name": "",
+      "image": "",
+      "content": "Companies are like families. They are all dysfunctional but some of them are loving."
     }
   ],
   "contactInfo": {

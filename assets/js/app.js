@@ -366,9 +366,6 @@ jQuery(document).ready(function($) {
       var btn = $("#skills-help-button i");
       var aboutSkills = $("#about-skills");
 
-      aboutSkills.css("height", aboutSkills.height());
-      aboutSkills.css("width", aboutSkills.width());
-
       btn.click(function(){
         aboutSkills.slideToggle("slow", 'swing', function(){
           btn.toggleClass("fa-question-circle fa-times-circle");
