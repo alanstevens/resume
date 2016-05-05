@@ -128,7 +128,7 @@
         "Team City",
         "git"
       ],
-      "description": "Built a greenfield, multi-tenant application supporting a new business initiative to provide online bill payment to current paper billing customers. "
+      "description": "Built a greenfield, multi-tenant application to provide online bill payment to current paper billing customers. "
     },
     {
       "company": "",
@@ -174,7 +174,7 @@
         "Sybase",
         "git"
       ],
-      "description": "Collaborate with an in house developer porting a VB6 application to ASP.NET MVC. Worked with the entire tech team in training and design of the new system."
+      "description": "Collaborate with an in house developer to port a VB6 application to ASP.NET MVC. Provided training and collaborated on design of the new system."
     },
     {
       "company": "",
