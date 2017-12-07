@@ -3,7 +3,7 @@
   "intro": {
     "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
     "profilePic": "head_shot.jpg",
-    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. I work remotely and have for the past eight years. I keep an office in the Bearden area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past ten years. Much of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p>",
+    "aboutMe": "<p>I am a web developer. I live and work in Knoxville, Tennessee. I work remotely and have for the past eight years. I keep an office in the Fourth & Gill area of Knoxville which I share with my Border Collie, Malcolm.</p><p> I have worked with businesses of every size and with technologies spanning the trends of the past seventeen years. Much of my career has been spent in consulting, but I have worked on small, medium and large teams as an employee as well.</p>",
     "hobbies": "<p>I am passionate about Open Space Technology. I have facilitated open spaces since 2008 and I continue to facilitate several spaces every year. For more information about Open Space Technology, take a look at <a href='https://channel9.msdn.com/Events/Seth-on-the-Road/That-Conference-2015/T031'>this interview</a> I gave about the topic in 2015.</p><p>I like to relax by singing and playing my acoustic guitar.&nbsp;<i class='fa fa-music'></i></p>"
   },
   "socialIcons": [
@@ -96,6 +96,21 @@
     }
   ],
   "experience": [
+    {
+      "company": "Progressive Leasing, Inc.",
+      "url": "https://www.progleasing.com/",
+      "client": "",
+      "location": "Draper, UT",
+      "dates": "2016 - present",
+      "tools": [
+        "C#",
+        "ServiceStack",
+        "Javascript",
+        "Angular.js",
+        "Node.js"
+      ],
+      "description": "Contributed to financial processing application as a full stack developer."
+    },
     {
       "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>",
       "url": "http://nerdhive.io"
@@ -365,6 +380,28 @@
         "TFS"
       ],
       "description": "Built a query interface for military logistical plans. Created a tool to edit ship schedules during logistical exercises. Spearheaded the effort to move all development teams onto Team Foundation Server. Developed a TFS Version control client for Visual FoxPro."
+    },
+    {
+      "company": "Young & Mead Consulting",
+      "client": "",
+      "location": "Knoxville, TN",
+      "dates": "2002 - 2005",
+      "tools": [
+        "Visual FoxPro"
+      ],
+      "description": "Worked on a variety of custom software for clients performing inventory management, payroll, point of sale, billing and back office needs."
+    },
+    {
+      "company": "Site Management Services",
+      "url": "http://wirelesssitesolutions.net/WSS/Welcome.html",
+      "client": "",
+      "location": "Knoxville, TN",
+      "dates": "2000 - 2001",
+      "tools": [
+        "VBA",
+        "Visual FoxPro"
+      ],
+      "description": "Built a system to track and manage cellphone tower sites."
     }
   ],
   "education": [
@@ -427,18 +464,18 @@
     }
   ],
   "contactInfo": {
-    "street": "101 Westwood Road",
-    "suite": "Suite 212",
+    "street": "830 N. Broadway",
+    "suite": "Suite 6",
     "city": "Knoxville",
     "state": "TN",
-    "zip": "37919",
+    "zip": "37917",
     "mobile": "865-748-4074",
     "email": "jobs@alanstevens.io",
     "url": "http://alanstevens.io",
     "resumeUrl": "http://resume.alanstevens.io",
     "map": {
-      "lat": "35.935261",
-      "lng": "-83.995762"
+      "lat": "35.97921",
+      "lng": "-83.9254533"
     }
   },
   "summaryMessage": "I hope you enjoyed reading my resume. I'd love to hear from you. Feel free to contact me about employment opportunities, or any other matter."

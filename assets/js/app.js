@@ -228,9 +228,8 @@ jQuery(document).ready(function($) {
   initializeMap();
 
   function initializeMap() {
-    var lat = "35.935261",
-      lng = "-83.995762";
-
+    var lat = "35.97921",
+      lng = "-83.9254533";
     var latLng = new google.maps.LatLng(lat, lng);
 
     var myOptions = {
