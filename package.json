@@ -31,16 +31,8 @@
     "install:globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install jshint -g; npm install -g browser-sync; npm install postcss-cli -g; npm install postcss-simple-vars -g;"
   },
   "devDependencies": {
-    "clean-css": "^3.4.9",
     "handlebars": "^3.0.3",
-    "html-minifier": "^1.1.1",
-    "live-reload": "^1.1.0",
-    "parallelshell": "^2.0.0",
-    "postcss": "^5.0.14",
-    "postcss-import": "^8.0.2",
-    "postcss-simple-vars": "^1.2.0",
     "rimraf": "^2.4.2",
-    "uglify-js": "^2.6.1",
     "watch": "^0.17.1"
   }
 }

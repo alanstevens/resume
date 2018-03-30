@@ -105,7 +105,7 @@
             "value": "90"
         }
     ],
-    "experience": [{},
+    "experience": [
         {
             "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>",
             "url": "http://nerdhive.io"
@@ -306,7 +306,7 @@
                 "MongoDB",
                 "git"
             ],
-            "description": "Part of a small team building green field Rails application using MongoDB beant to diagnose, track and minimize athletic concussion injuries."
+            "description": "Part of a small team building green field Rails application using MongoDB meant to diagnose, track and minimize athletic concussion injuries."
         },
         {
             "company": "",
