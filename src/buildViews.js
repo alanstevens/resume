@@ -9,8 +9,13 @@ data.skills.forEach(function(element, index, array){
 })
 // format skills data for rendering
 data.skillRows = [];
+var allSkills = data.skills.slice();
 while (data.skills.length) {
   data.skillRows.push(data.skills.splice(0, 4));
+}
+data.printSkillRows = [];
+while (allSkills.length) {
+  data.printSkillRows.push(allSkills.splice(0, 5));
 }
 
 data.projects = gatherProjects(data.experience);

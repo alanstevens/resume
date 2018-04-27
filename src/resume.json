@@ -400,20 +400,6 @@
                 "SVN"
             ],
             "description": "Extended an existing website for an international law firm. "
-        },
-        {
-            "company": "DPRA",
-            "url": "http://www.dpra.com/",
-            "client": "",
-            "location": "Knoxville, TN",
-            "dates": "2005-2008",
-            "tools": [
-                "Visual FoxPro",
-                "C#",
-                "Windows Forms",
-                "TFS"
-            ],
-            "description": "Built a query interface for military logistical plans. Created a tool to edit ship schedules during logistical exercises. Spearheaded the effort to move all development teams onto Team Foundation Server. Developed a TFS Version control client for Visual FoxPro."
         }
     ],
     "education": [{
