@@ -21,12 +21,12 @@ while (allSkills.length) {
 data.projects = gatherProjects(data.experience);
 
 var templateName = "./print/index-template.html";
-var outputPath = "./../print/index.html";
+var outputPath = "../dist/print/index.html";
 var partialsPath = "./print/partials";
 buildView(templateName, outputPath, partialsPath, data);
 
 templateName = "./web/index-template.html";
-outputPath = "../index.html";
+outputPath = "../dist/index.html";
 partialsPath = "./web/partials";
 buildView(templateName, outputPath, partialsPath, data);
 
@@ -64,14 +64,12 @@ function registerPartials(partialsPath) {
       if (err) {
         console.log("ERROR registering partial:", partialFilepath, err);
       }
-
     });
     Handlebars.registerPartial(partialName, partialContent);
   });
 }
 
 function gatherProjects(experience) {
-
   var current = {};
   var results = [];
   for (var i = 0; i < experience.length; i++) {

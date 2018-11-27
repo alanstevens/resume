@@ -10,29 +10,32 @@
     "url": "https://github.com:alanstevens/resume"
   },
   "scripts": {
-    "build:dist": "npm run clean -s; npm run mkdirs -s; npm run build; npm run min:all -s; npm run copyassets -s;",
+    "build:dist": "npm run clean; npm run mkdirs; npm run build; npm run min:all; npm run copyassets;",
     "build": "npm run build:html; npm run jshint;",
     "build:html": "node ./src/buildViews.js",
     "clean": "rm -rf dist",
-    "mkdirs": "mkdir dist; mkdir dist/print; mkdir dist/assets; mkdir dist/assets/files; mkdir dist/assets/fonts; mkdir dist/assets/images; mkdir dist/assets/js; mkdir dist/assets/favicons; mkdir dist/assets/css; mkdir dist/inc;",
+    "mkdirs": "mkdir dist; mkdir dist/print; mkdir dist/assets; mkdir dist/assets/files; mkdir dist/assets/fonts; mkdir dist/assets/images; mkdir dist/assets/js; mkdir dist/assets/favicons; mkdir dist/assets/css;",
     "jshint": "jshint assets/js/app.js",
     "min:all": "npm run min:js; npm run min:css; npm run process-html",
     "min:css": "npm run postcss; cleancss --source-map --output dist/assets/css/style.min.css dist/assets/css/style.css",
     "postcss": "postcss --use postcss-import postcss-simple-vars --output dist/assets/css/style.css src/assets/css/style.css",
-    "min:js": "uglifyjs assets/js/jquery.flexslider-2.6.0.js assets/js/jquery.html5-placeholder-shim.js assets/js/jquery.waypoints-4.0.0.js assets/js/waypoints.inview-4.0.0.js  assets/js/jquery.fittext-1.2.js assets/js/jquery.magnific-popup-1.0.1.js assets/js/jquery.nav-3.0.0.js assets/js/jquery.sticky-1.0.3.js assets/js/jquery.easypiechart-2.1.7.js assets/js/app.js --compress --mangle --output dist/assets/js/app.min.js --source-map dist/assets/js/app.min.js.map;",
-    "min:html": "html-minifier index.processed.html  --remove-comments --remove-comments-from-cdata --remove-cdatasections-from-cdata --collapse-whitespace --conservative-collapse --preserve-line-breaks --collapse-inline-tag-whitespace --collapse-boolean-attributes --remove-attribute-quotes --prevent-attributes-escaping --use-short-doctype --remove-empty-attributes --remove-script-type-attributes --remove-style-link-type-attributes --minify-js --minify-css --minify-urls --output dist/index.html; rm index.processed.html",
-    "copyassets": "cp -r assets/fonts/ dist/assets/fonts; cp print/* dist/print; cp assets/files/* dist/assets/files;  cp assets/images/* dist/assets/images; cp assets/js/modernizr.js dist/assets/js; cp assets/favicons/* dist/assets/favicons;  cp inc/* dist/inc;",
+    "min:js": "uglifyjs assets/js/jquery.flexslider-2.6.0.js assets/js/jquery.html5-placeholder-shim.js assets/js/jquery.waypoints-4.0.0.js assets/js/waypoints.inview-4.0.0.js assets/js/jquery.fittext-1.2.js assets/js/jquery.magnific-popup-1.0.1.js assets/js/jquery.nav-3.0.0.js assets/js/jquery.sticky-1.0.3.js assets/js/jquery.easypiechart-2.1.7.js assets/js/app.js --compress --mangle --output dist/assets/js/app.min.js -cmo dist/assets/js/main.min.js --source-map url=dist/assets/js/app.min.js.map;",
+    "min:html": "htmlmin index.processed.html --remove-comments --remove-comments-from-cdata --remove-cdatasections-from-cdata --collapse-whitespace --conservative-collapse --preserve-line-breaks --collapse-inline-tag-whitespace --collapse-boolean-attributes --remove-attribute-quotes --prevent-attributes-escaping --use-short-doctype --remove-empty-attributes --remove-script-type-attributes --remove-style-link-type-attributes --minify-js --minify-css --minify-urls --output dist/index.html; rm index.processed.html",
+    "copyassets": "cp -r assets/fonts/ dist/assets/fonts; cp -r assets/files/ dist/assets/files;  cp -r assets/images/ dist/assets/images; cp assets/js/modernizr.js dist/assets/js/; cp -r assets/favicons/ dist/assets/favicons; cp -r assets/print/ dist/assets/print;",
     "process-html": "npm run htmlpre; npm run min:html",
-    "htmlpre": "htmlprocessor index.html",
+    "htmlpre": "htmlprocessor dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watch 'npm run build' --ignoreDotFiles --ignoreUnreadable --wait=5",
     "dev": "parallelshell 'npm run watch' 'npm run sync'",
-    "sync": "browser-sync start --server --reload-debounce 3000 --reload-delay 10000 --files 'assets/css/*.css, asssets/js/app.js, index.html'",
-    "install:globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install jshint -g; npm install -g browser-sync; npm install postcss-cli -g; npm install postcss-simple-vars -g;"
+    "sync": "browser-sync start --server --reload-debounce 3000 --reload-delay 10000 --files 'assets/css/*.css, asssets/js/app.js, dist/index.html'",
+    "install:globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install jshint -g; npm install -g browser-sync; npm install postcss-import -g; npm install postcss-cli -g; npm install postcss-simple-vars -g; npm install clean-css -g; npm install clean-css-cli -g; npm install html-minifier-cli -g"
   },
   "devDependencies": {
-    "handlebars": "^3.0.3",
+    "handlebars": "^4.0.12",
     "rimraf": "^2.4.2",
     "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "postcss": "^7.0.6"
   }
 }

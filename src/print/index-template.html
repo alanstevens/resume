@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-	{{> head }}
-	{{> favicons }}
+    {{> head }} {{> favicons }}
 
 </head>
 
 <body onload="window.print()">
 
-	<div id="doc2" class="yui-t7">
-		<div id="inner">
+    <div id="doc2" class="yui-t7">
+        <div id="inner">
 
-			{{> header }}
+            {{> header }}
 
-			<div id="bd">
-				<div id="yui-main">
-					<div class="yui-b">
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b">
 
-						{{> profile}}
+                        {{> profile}} {{> skills data=printSkillRows }}
 
-					  {{> skills data=printSkillRows }}
+                        <!-- > tech  -->
 
-						<!-- > tech  -->
+                        <div id="experience">
+                            {{> experience data=projects }}
+                        </div>
 
-						<div id="experience">
-					  {{> experience data=projects }}
-						</div>
+                        {{> education data=education }} {{> footer }}
 
-					  {{> education data=education }}
+                    </div>
+                    <!--// .yui-b -->
+                </div>
+                <!--// yui-main -->
+            </div>
+            <!--// bd -->
 
-						{{> footer }}
+        </div>
+        <!-- // inner -->
 
-					</div>
-					<!--// .yui-b -->
-				</div>
-				<!--// yui-main -->
-			</div>
-			<!--// bd -->
-
-		</div>
-		<!-- // inner -->
-
-	</div>
-	<!--// doc -->
+    </div>
+    <!--// doc -->
 
 </body>
+
 </html>
