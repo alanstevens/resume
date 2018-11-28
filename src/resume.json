@@ -105,16 +105,16 @@
             "value": "90"
         }
     ],
-    "experience": [
-        {
-            "company": "NerdHive Industries&nbsp;<em>2010 - Present</em>",
+    "experience": [{
+            "company": "NerdHive Industries&nbsp;<em>2018 - Present</em>",
             "url": "http://nerdhive.io"
-        },
-        {
+        }, {
             "company": "",
-            "client": "",
+            "client": " Dash Point Software",
+            "company": "",
+            "url": "http://www.dashpoint.com/",
             "location": "Sioux Falls, South Dakota",
-            "dates": "May 2018 - December 2018",
+            "dates": "May 2018 - Present",
             "tools": [
                 "C#",
                 "WPF",
@@ -122,34 +122,26 @@
                 "git"
             ],
             "description": "Built management tools for a financial institution."
-        },
-        {
-            "company": "",
-            "client": "",
+        }, {
+            "company": "Progressive Leasing",
+            "url": "http://progleasing.com",
             "location": "Salt Lake City, Utah",
-            "dates": "July 2017 - March 2018",
+            "client": "",
+            "dates": "September 2016 - March 2018",
             "tools": [
                 "C#",
                 "aspnet core",
                 "ServiceStack",
-                "git"
-            ],
-            "description": "Designed and contributed to a greenfield microservice API."
-        },
-        {
-            "company": "",
-            "location": "Salt Lake City, Utah",
-            "client": "",
-            "dates": "September 2016 - June 2017",
-            "tools": [
                 "Javascript",
                 "Angular.js",
                 "Node.js",
                 "git"
             ],
-            "description": "Implemented multi-lingual support in an Angular.js loan origination application."
-        },
-        {
+            "description": "Implemented multi-lingual support in an Angular.js loan origination application. Designed and contributed to a greenfield microservice API."
+        }, {
+            "company": "NerdHive Industries&nbsp;<em>2010 - 2016</em>",
+            "url": "http://nerdhive.io"
+        }, {
             "company": "",
             "client": "Tivactic",
             "location": "Knoxville, TN",
@@ -161,8 +153,7 @@
                 "git"
             ],
             "description": "Built a Windows service to interact with Firebase for a commercial IoT project."
-        },
-        {
+        }, {
             "company": "",
             "client": "Improving",
             "location": "Fort Worth, TX",
@@ -176,8 +167,7 @@
                 "git"
             ],
             "description": "Adopted a large Rails 3.0 application. Separated static assets from source code. Put source in git. Automated deployment and provisioning."
-        },
-        {
+        }, {
             "company": "",
             "client": "Matrix Imaging",
             "location": "Sanborn, NY",
@@ -191,8 +181,7 @@
                 "git"
             ],
             "description": "Built a greenfield, multi-tenant application to provide online bill payment to current paper billing customers. "
-        },
-        {
+        }, {
             "company": "",
             "client": "DGL Group",
             "location": "Edison, NJ",
@@ -207,8 +196,7 @@
                 "Mercurial"
             ],
             "description": "Collaborated with an in house developer extending a global procurement and logistics application. Put source in Mercurial. Configured continuous integration and deployment. "
-        },
-        {
+        }, {
             "company": "",
             "client": "ChaiOne",
             "location": "Houston, TX",
@@ -222,8 +210,7 @@
                 "git"
             ],
             "description": "Built a greenfield Rails application to communicate with a large, third party SOAP API in support of a startup mobile app."
-        },
-        {
+        }, {
             "company": "",
             "client": "Matrix Systems",
             "location": "Sanborn, NY",
@@ -237,8 +224,7 @@
                 "git"
             ],
             "description": "Collaborate with an in house developer to port a VB6 application to ASP.NET MVC. Provided training and collaborated on design of the new system."
-        },
-        {
+        }, {
             "company": "",
             "client": "GoldMail",
             "location": "Santa Rosa, CA",
@@ -251,8 +237,7 @@
                 "TFS"
             ],
             "description": "Code Review of a pre-release ASP.NET application. "
-        },
-        {
+        }, {
             "company": "",
             "client": "TAG Resources",
             "location": "Knoxville, TN",
@@ -265,8 +250,7 @@
                 "git"
             ],
             "description": "Built a greenfield application using a legacy database to manage importing financial reporting in a various formats and schemas."
-        },
-        {
+        }, {
             "company": "",
             "client": "Chefs Catalog",
             "location": "Colorado Springs, CO",
@@ -278,8 +262,7 @@
                 "SVN"
             ],
             "description": "Refactored a legacy Windows Forms application with improved UX, and asynchronous DB access to cope with lengthy DB2 response times."
-        },
-        {
+        }, {
             "company": "",
             "client": "Acrowire",
             "location": "Charlotte, NC",
@@ -291,8 +274,7 @@
                 "git"
             ],
             "description": "Built a greenfield REST web api which automated Powershell on the back end to administer Office 365."
-        },
-        {
+        }, {
             "company": "",
             "client": "FOTO",
             "location": "Knoxville, TN",
@@ -305,8 +287,7 @@
                 "SVN"
             ],
             "description": "Maintained a web forms application for a local SaaS provider to physical therapists."
-        },
-        {
+        }, {
             "company": "",
             "client": "Peak Neurofitness",
             "location": "Arlington, VA",
@@ -320,8 +301,7 @@
                 "git"
             ],
             "description": "Part of a small team building green field Rails application using MongoDB meant to diagnose, track and minimize athletic concussion injuries."
-        },
-        {
+        }, {
             "company": "",
             "client": "EPS Group",
             "location": "Houston, TX",
@@ -334,8 +314,7 @@
                 "TFS"
             ],
             "description": "Led a five developer team in porting a mature Visual FoxPro application to WPF and SQL Server."
-        },
-        {
+        }, {
             "company": "Interactive Intelligence Incorporated",
             "url": "https://www.inin.com/",
             "client": "",
@@ -348,11 +327,9 @@
                 "Perforce"
             ],
             "description": "Contributed to a large Windows Forms client for an enterprise VOIP telephony system. "
-        },
-        {
+        }, {
             "company": "Freelance Consultant&nbsp;<em>2008 - 2009</em>"
-        },
-        {
+        }, {
             "company": "",
             "client": "Vision Pace",
             "location": "Kansas City, MO",
@@ -364,8 +341,7 @@
                 "SVN"
             ],
             "description": "Developed a web service API for credit card processing using custom headers for authentication and a SQL Server backend."
-        },
-        {
+        }, {
             "company": "",
             "client": "ALCOA",
             "location": "Knoxville, TN",
@@ -378,8 +354,7 @@
                 "TFS"
             ],
             "description": " Developed a business intelligence application for the corporate intranet using ASP.NET with an Oracle database."
-        },
-        {
+        }, {
             "company": "",
             "client": "Intellection Group",
             "location": "Atlanta, GA",
@@ -390,8 +365,7 @@
                 "SVN"
             ],
             "description": "Integrated an existing classic ASP application into an Adobe Director application. "
-        },
-        {
+        }, {
             "company": "",
             "client": "QuotePro",
             "location": "Chicago, IL",
@@ -401,8 +375,7 @@
                 "SVN"
             ],
             "description": "Reorganized and cleaned up the source of a Visual FoxPro application and imported it into Subversion."
-        },
-        {
+        }, {
             "company": "",
             "client": "Reinarz & Associates",
             "location": "Edwards, CO",
@@ -414,15 +387,57 @@
                 "SVN"
             ],
             "description": "Extended an existing website for an international law firm. "
+        }, {
+            "company": "DPRA",
+            "url": "http://www.dpra.com/",
+            "location": "Knoxville, TN",
+            "dates": "2005 - 2008",
+            "tools": [
+                "Visual FoxPro",
+                "C#",
+                "Windows Forms",
+                "TFS"
+            ],
+            "description": "Built a user-friendly interface to perform queries of a logistical plan. Created a tool for editing ship schedules by an operator during logistical exercises. Organized a committee to conduct interviews and gather requirements for Team Foundation Server. Responsible for configuration, deployment and administration of all TFS functions. Designed and built custom TFS Version control client for Visual FoxPro using the managed, .NET client API and COM interop."
+        }, {
+            "company": "Young & Meade Consulting",
+            "location": "Knoxville, TN",
+            "dates": "2002 - 2005",
+            "tools": [
+                "Visual FoxPro",
+                "PHP",
+                "MySQL"
+            ],
+            "description": "Managed the network for a private school managed proxy firewall, domain controller, webmail, websites, proxy filtering using a linux server. Implemented and extended Horde using php and mysql. Adopted all facets of support for a custom hospitality app used at a country club providing point of sale, billing and back office services. Lead developer in adapting a custom point of sale app for retail distribution. Created a time clock application supporting some very specific and complex business rules which is still in use today, unmodified. Adopted, extended and eventually rewrote an application managing cost of good sold and payroll export to support transparency and accountability for a fast food franchisee with 90+ stores."
+        }, {
+            "company": "Site Management Services",
+            "location": "Knoxville, TN",
+            "dates": "2000 - 2001",
+            "tools": [
+                "VBA",
+                "Visual FoxPro"
+            ],
+            "description": "Built a system to track and manage cellphone tower sites. Created topographical map overlays to predict signal range. Provided business intelligence to predict new site opportunities."
+        }, {
+            "company": "Microdata Consulting",
+            "location": "Knoxville, TN",
+            "dates": "1999 - 2000",
+            "tools": [
+                "Windows NT",
+                "Microsoft Exchange"
+            ],
+            "description": "Built and supported PCs. Managed small business networks."
         }
     ],
     "education": [{
             "institution": "University of Tennessee, Knoxville",
-            "degree": "MS in Education, Curriculum & Instruction"
+            "degree": "MS in Education, Curriculum & Instruction",
+            "date": "1994"
         },
         {
             "institution": "University of Tennessee, Knoxville",
-            "degree": "BA in Liberal Arts, History"
+            "degree": "BA in Liberal Arts, History",
+            "date": "1993"
         }
     ],
     "endorsments": [{

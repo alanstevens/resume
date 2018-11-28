@@ -896,8 +896,10 @@ call-to-action .button {
     font-family: 'FontAwesome';
     content: "\f10d";
     padding-right: 10px;
-    font-size: 72px;
-    line-height: 72px;
+    /* font-size: 72px; */
+    /* line-height: 72px; */
+    font-size: 36px;
+    line-height: 36px;
     text-align: left;
     float: left;
     color: #fff;
@@ -921,10 +923,10 @@ call-to-action .button {
     font-weight: 400;
     font-style: italic;
     padding: 0;
-    /*font-size: 24px;*/
-    font-size: 48px;
-    /*line-height: 48px;*/
-    line-height: 96px;
+    font-size: 36px;
+    /* font-size: 48px; */
+    line-height: 48px;
+    /* line-height: 96px; */
     color: #fff
 }
 
