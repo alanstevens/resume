@@ -233,15 +233,15 @@ jQuery(document).ready(function($) {
     /*	map
     ------------------------------------------------------*/
 
-    // initializeMap();
+    initializeMap();
 
     function initializeMap() {
-        var lat = "35.97921",
-            lng = "-83.9254533";
+        var lat = "35.9602537",
+            lng = "-83.921051";
         var latLng = new google.maps.LatLng(lat, lng);
 
         var myOptions = {
-            zoom: 17,
+            zoom: 12,
             center: latLng,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,

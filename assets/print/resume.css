@@ -272,8 +272,8 @@ a#pdf:hover {
   /*margin: 0.5em 0 2em 0;*/
 }
 .job-wrapper{
-  margin-bottom: 2em;
-  padding-bottom: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
   border-bottom: 1px solid #ccc;
 }
 .job-wrapper h2{

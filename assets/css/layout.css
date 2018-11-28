@@ -848,7 +848,13 @@ call-to-action .button {
     position: relative;
     min-height: 200px;
     width: 100%;
-    background: #1F1F1F url(../images/macbook_desk.png) no-repeat center center;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../images/sprockets.jpg) no-repeat center center,
+        #1F1F1F;
     overflow: hidden;
     display: block;
     background-size: cover !important;
