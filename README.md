@@ -13,11 +13,9 @@ Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to 
 #### TODO
 *  Add links to written, spoken & video resources to about
 *  cap print history at ten years
-*  add microdata to history
 *  map doesn't render on iOS
 *  maps marker doesn't render on iOS
 *  Twitter, Tumblr & LinkedIn glyphs don't render on iOS
-*  decrease the quotes font size
 *  remove controls from map
 *  fix serif font in landing in IE
 *  request endorsements
@@ -29,6 +27,8 @@ Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to 
 *  add a link to the speaker deck page
 *  do a push state to update the hash in the url
 
+*  ~~decrease the quotes font size~~
+*  ~~add microdata to history~~
 *  ~~restore history past ten years~~
 *  ~~restore download link to graphical resume~~
 *  ~~add an explanation of skills scores~~
