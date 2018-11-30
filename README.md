@@ -11,6 +11,11 @@ Any code derived from those sources is licensed under their original license. My
 Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to build my html from a json data file using handlebars.
 
 #### TODO
+*  I may have outgrown npm scripts
+*  resume is fully HTTPS ready (but not enforced),
+*  main site needs google font links corrected for https://, then could enforce there as well.
+*  back buttons breaks on the main site - probably want to use replaceState there to avoid the issue
+*  Collapse part of the long about section
 *  Add links to written, spoken & video resources to about
 *  cap print history at ten years
 *  map doesn't render on iOS
@@ -24,7 +29,7 @@ Thanks to [Bob Yexley](https://github.com/ryexley/resume) for showing me how to 
 *  split css into partials
 *  write honors
 *  Add glyphs to section headers (print only?)
-*  add a link to the speaker deck page
+*  add a link to my speaker deck page
 *  do a push state to update the hash in the url
 
 *  ~~decrease the quotes font size~~

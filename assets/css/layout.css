@@ -1626,3 +1626,15 @@ footer p {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
 }
+
+#show-more-about-me {
+    cursor: pointer;
+}
+
+#show-more-about-me:hover {
+        color: #11ABB0;
+    }
+
+#more-about-me {
+    display: none;
+}

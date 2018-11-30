@@ -386,4 +386,29 @@ jQuery(document).ready(function($) {
         });
     }
 
+    expandMoreAboutMe();
+
+    function expandMoreAboutMe() {
+        var showMore = $("#show-more-about-me");
+        var moreAboutMe = $("#more-about-me");
+
+        showMore.click(function() {
+            moreAboutMe.slideToggle("slow", 'swing', function() {
+                // showMore.Morphext( {
+                //     animation: "rotateIn",
+                //     // // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+                //     // separator: ",",
+                //     // // The delay between the changing of each phrase in milliseconds.
+                //     // speed: 2000,
+                //     complete: function() {
+                //         // called after the entrance animation is executed.
+                //         var text = showMore.text();
+                //         showMore.text( text == "Show More" ? "Show Less" : "Show More");
+                //     }
+                // });
+                var text = showMore.text();
+                showMore.text( text == "Show More" ? "Show Less" : "Show More");
+            });
+        });
+    }
 });
