@@ -1638,3 +1638,8 @@ footer p {
 #more-about-me {
     display: none;
 }
+
+#vim {
+    vertical-align:middle;
+    opacity: 0.5;
+}
