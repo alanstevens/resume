@@ -5,7 +5,7 @@
         "profilePic": "head_shot.jpg",
         "aboutMe": "<p>My mission is to empower people. I do this through the software I build, public speaking, and Open Space Technology facilitation. I solve problems.</p> <p>I am a software developer with nearly two decades experience delivering working software that meets users’ needs in a variety of languages and platforms. Today, I focus on web development in ASP.NET with experience in Ruby on Rails.</p> <p>I live in Knoxville, Tennessee. I have worked remotely for ten years. It is important for me to be part of a culture that supports remote work. I am self motivated. I get things done.</p>",
         "moreAboutMe":"<p>I have worked with businesses and teams of every size and with technologies spanning the trends of the past two decades.  I have worked in dozens of code bases. I have integrated with a variety of teams and workplace cultures. I have worked with people across the US as well as India, Brazil, Russia and Eastern Europe.</p> <p>I do best as part of a close knit team where mutual support is the norm. I like to work with people who challenge me to improve. I prefer to work in an environment that has a wide range of ages and levels of experience.</p> <p>I enjoy the challenge of understanding the needs of users and stakeholders to solve the right problems. I am convinced that building the right thing is always more important than building it right, because, it doesn’t matter how well you build the wrong thing.</p> <p>I prefer readable and maintainable code. I follow the guidance of Ward Cunningham, who said, \"Make it look like it was easy to write this program even if it wasn't.\" I am an advocate of testing as the best means to create a successful design.</p> <p>I enjoy engaging with local and regional software developer communities. I have delivered dozens of presentations at user groups and conferences, with the intent to inspire and empower developers. I am a member of KnoxDevs, KnoxRuby and I host Knoxville Developer Beers, a bi-weekly, polyglot developer meetup and discussion group. </p> <p>As an Open Space Technology facilitator, I have learned how to remove blocks to communication and build consensus. I am a social catalyst. I bring people together. I enjoy interacting with people via social media.</p>",
-        "hobbies": "<p>I am an avid flower gardener. I enjoy watching stupid YouTube kids' shows with my granddaughter. I like to relax by singing and playing my acoustic guitar. &nbsp;<i class='fa fa-music'></i></p>"
+        "hobbies": "<p>I am an avid flower gardener. I enjoy watching dumb YouTube kids' shows with my granddaughter. I like to relax by singing and playing my acoustic guitar. &nbsp;<i class='fa fa-music'></i></p>"
     },
     "socialIcons": [{
             "service": "twitter",
@@ -399,7 +399,7 @@
                 "Windows Forms",
                 "TFS"
             ],
-            "description": "Built a user-friendly interface to perform queries of a logistical plan. Created a tool for editing ship schedules by an operator during logistical exercises. Organized a committee to conduct interviews and gather requirements for Team Foundation Server. Responsible for configuration, deployment and administration of all TFS functions. Designed and built custom TFS Version control client for Visual FoxPro using the managed, .NET client API and COM interop."
+            "description": "Built management tools for a military logistics application. Migrated organization with no source control to Team Foundation Server."
         }, {
             "company": "Young & Meade Consulting",
             "location": "Knoxville, TN",
@@ -409,7 +409,7 @@
                 "PHP",
                 "MySQL"
             ],
-            "description": "Managed the network for a private school managed proxy firewall, domain controller, webmail, websites, proxy filtering using a linux server. Implemented and extended Horde using php and mysql. Adopted all facets of support for a custom hospitality app used at a country club providing point of sale, billing and back office services. Lead developer in adapting a custom point of sale app for retail distribution. Created a time clock application supporting some very specific and complex business rules which is still in use today, unmodified. Adopted, extended and eventually rewrote an application managing cost of good sold and payroll export to support transparency and accountability for a fast food franchisee with 90+ stores."
+            "description": "Performed sysadmin and software developer duties for local, small businesses.  Maintained two POS applications. Built a time clock with complex business rules that runs in production to this day."
         }, {
             "company": "Site Management Services",
             "location": "Knoxville, TN",
