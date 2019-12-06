@@ -1,21 +1,19 @@
 {
   "name": "resume_2016",
   "version": "1.0.0",
-  "description": "==================================================================================================",
+  "description": "",
   "license": "ISC",
   "author": "H. Alan Stevens",
-  "main": "assets/js/app.js",
+  "main": "npm run build",
   "repository": {
     "type": "git",
     "url": "https://github.com:alanstevens/resume"
   },
   "scripts": {
-    "build:dist": "npm run clean; npm run mkdirs; npm run build; npm run min:all; npm run copyassets;",
-    "build": "npm run build:html; npm run jshint;",
+    "build": "npm run clean; npm run mkdirs; npm run build:html; npm run min:all; npm run copyassets;",
     "build:html": "node ./src/buildViews.js",
     "clean": "rm -rf dist",
     "mkdirs": "mkdir dist; mkdir dist/print; mkdir dist/assets; mkdir dist/assets/files; mkdir dist/assets/fonts; mkdir dist/assets/images; mkdir dist/assets/js; mkdir dist/assets/favicons; mkdir dist/assets/css;",
-    "jshint": "jshint assets/js/app.js",
     "min:all": "npm run min:js; npm run min:css; npm run process-html",
     "min:css": "npm run postcss; cleancss --source-map --output dist/assets/css/style.min.css dist/assets/css/style.css",
     "postcss": "postcss --use postcss-import postcss-simple-vars --output dist/assets/css/style.css src/assets/css/style.css",
@@ -24,18 +22,19 @@
     "copyassets": "cp -r assets/fonts/ dist/assets/fonts; cp -r assets/files/ dist/assets/files;  cp -r assets/images/ dist/assets/images; cp assets/js/modernizr.js dist/assets/js/; cp -r assets/favicons/ dist/assets/favicons; cp -r assets/print/ dist/assets/print;",
     "process-html": "npm run htmlpre; npm run min:html",
     "htmlpre": "htmlprocessor dist/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watch 'npm run build' --ignoreDotFiles --ignoreUnreadable --wait=5",
-    "dev": "parallelshell 'npm run watch' 'npm run sync'",
-    "sync": "browser-sync start --server --reload-debounce 3000 --reload-delay 10000 --files 'assets/css/*.css, asssets/js/app.js, dist/index.html'",
-    "install:globals": "npm install uglify-js -g; npm install -g htmlprocessor; npm install jshint -g; npm install -g browser-sync; npm install postcss-import -g; npm install postcss-cli -g; npm install postcss-simple-vars -g; npm install clean-css -g; npm install clean-css-cli -g; npm install html-minifier-cli -g"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "handlebars": "^4.0.12",
-    "rimraf": "^2.4.2",
-    "watch": "^0.17.1"
+    "clean-css": "^4.2.1",
+    "clean-css-cli": "^4.3.0",
+    "handlebars": "^4.5.3",
+    "htmlmin": "0.0.7",
+    "htmlprocessor": "^0.2.6",
+    "postcss-cli": "^6.1.3",
+    "postcss-import": "^12.0.1",
+    "postcss-simple-vars": "^5.0.2",
+    "rimraf": "^2.7.1",
+    "uglify-js": "^3.7.1"
   },
-  "dependencies": {
-    "postcss": "^7.0.6"
-  }
+  "dependencies": {}
 }

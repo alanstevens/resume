@@ -107,15 +107,28 @@
         }
     ],
     "experience": [{
-            "company": "NerdHive Industries&nbsp;<em>2018 - Present</em>",
+            "company": "Health Catalyst",
+            "url": "http://healthcatalyst.com",
+            "location": "Salt Lake City, Utah",
+            "client": "",
+            "dates": "January 2019 - Present",
+            "tools": [
+                "C#",
+                "aspnet core",
+                "Typescript",
+                "Angular",
+                "git"
+            ],
+            "description": "Built a system to manage reviews of medical providers."
+        }, {
+            "company": "NerdHive Industries&nbsp;<em>2018</em>",
             "url": "http://nerdhive.io"
         }, {
             "company": "",
             "client": " Dash Point Software",
-            "company": "",
             "url": "http://www.dashpoint.com/",
             "location": "Sioux Falls, South Dakota",
-            "dates": "May 2018 - Present",
+            "dates": "2018",
             "tools": [
                 "C#",
                 "WPF",
@@ -128,7 +141,7 @@
             "url": "http://progleasing.com",
             "location": "Salt Lake City, Utah",
             "client": "",
-            "dates": "September 2016 - March 2018",
+            "dates": "2016 - 2018",
             "tools": [
                 "C#",
                 "aspnet core",
@@ -138,7 +151,7 @@
                 "Node.js",
                 "git"
             ],
-            "description": "Implemented multi-lingual support in an Angular.js loan origination application. Designed and contributed to a greenfield microservice API."
+            "description": "Implemented multi-lingual support in an Angular.js lease origination application. Designed and contributed to a greenfield microservice API."
         }, {
             "company": "NerdHive Industries&nbsp;<em>2010 - 2016</em>",
             "url": "http://nerdhive.io"
