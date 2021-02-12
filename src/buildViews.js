@@ -4,8 +4,8 @@ var rimraf = require("rimraf");
 var Handlebars = require("handlebars");
 var data = require("./resume.json");
 
-data.skills.forEach(function(element, index, array){
-  element.safeName = element.name.replace(/ /g,'').replace('.','').replace('#','sharp');
+data.skills.forEach(function (element, index, array) {
+  element.safeName = element.name.replace(/ /g, '').replace('.', '').replace('#', 'sharp');
 })
 // format skills data for rendering
 data.skillRows = [];
@@ -15,15 +15,18 @@ while (data.skills.length) {
 }
 data.printSkillRows = [];
 while (allSkills.length) {
-  data.printSkillRows.push(allSkills.splice(0, 5));
+  data.printSkillRows.push(allSkills.splice(0, 3));
 }
 
-data.projects = gatherProjects(data.experience);
+projectCount = Math.round(data.experience.length / 2)
+data.projects = gatherProjects(data.experience, projectCount);
 
 var templateName = "./print/index-template.html";
 var outputPath = "../dist/print/index.html";
 var partialsPath = "./print/partials";
 buildView(templateName, outputPath, partialsPath, data);
+
+data.projects = gatherProjects(data.experience, data.experience.length);
 
 templateName = "./web/index-template.html";
 outputPath = "../dist/index.html";
@@ -41,8 +44,8 @@ function buildView(templateName, outputPath, partialsPath, data) {
   var resumeContent = template(data);
 
   rimraf(outputFile,
-    function() {
-      fs.writeFile(outputFile, resumeContent, function(err) {
+    function () {
+      fs.writeFile(outputFile, resumeContent, function (err) {
         if (err) {
           console.log("ERROR generating resume:\n", err);
         }
@@ -56,11 +59,11 @@ function registerPartials(partialsPath) {
   var partialsPath = path.resolve(__dirname, partialsPath);
   var partials = fs.readdirSync(partialsPath);
 
-  partials.forEach(function(partial) {
+  partials.forEach(function (partial) {
     var partialName = partial.substr(2, (partial.lastIndexOf(".") - 2));
     var partialFilepath = path.resolve(__dirname, partialsPath, partial);
 
-    var partialContent = fs.readFileSync(partialFilepath, "utf-8", function(err) {
+    var partialContent = fs.readFileSync(partialFilepath, "utf-8", function (err) {
       if (err) {
         console.log("ERROR registering partial:", partialFilepath, err);
       }
@@ -69,10 +72,10 @@ function registerPartials(partialsPath) {
   });
 }
 
-function gatherProjects(experience) {
+function gatherProjects(experience, count) {
   var current = {};
   var results = [];
-  for (var i = 0; i < experience.length; i++) {
+  for (var i = 0; i < count; i++) {
     var item = experience[i];
     item.children = [];
     item.hasChildren = false;
@@ -86,8 +89,8 @@ function gatherProjects(experience) {
     }
   }
 
-  results.forEach(function(parent, index, array) {
-    parent.children.forEach(function(child, index, array) {
+  results.forEach(function (parent, index, array) {
+    parent.children.forEach(function (child, index, array) {
       if (index > 1) {
         child.hidden = true;
       }

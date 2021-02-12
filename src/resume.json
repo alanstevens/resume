@@ -3,9 +3,9 @@
     "intro": {
         "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
         "profilePic": "head_shot.jpg",
-        "aboutMe": " <p>I am a software developer with two decades experience delivering working software that meets users’ needs in a variety of languages and platforms. Today, I focus on web development in ASP.NET and Angular.</p><p>I live in Knoxville, Tennessee. I have worked remotely for over ten years. It is important for me to be part of a culture that supports remote work. I get things done.</p> ",
+        "aboutMe": " <p>I am a software developer with two decades experience delivering working software. Today, I focus on web development in ASP.NET and Angular.</p><p>I have worked remotely for over ten years. It is important for me to be part of a culture that supports remote work.</p> ",
         "moreAboutMe":"",
-        "hobbies": "<p>I am an avid flower gardener. I enjoy watching dumb YouTube kids' videos with my granddaughter. I host Knoxville Developer Beers, a bi-weekly meetup.</p>"
+        "hobbies": "<p>I am an avid flower gardener. I enjoy watching silly YouTube videos with my granddaughter. I host Knoxville Developer Beers, a bi-weekly meetup.</p>"
     },
     "socialIcons": [{
             "service": "twitter",
@@ -42,6 +42,10 @@
             "value": "65"
         },
         {
+            "name": "bō staff",
+            "value": "90"
+        },
+        {
             "name": "javascript",
             "value": "65"
         },
@@ -54,16 +58,12 @@
             "value": "65"
         },
         {
+            "name": "nunchucks",
+            "value": "85"
+        },
+        {
             "name": "Angular",
             "value": "65"
-        },
-        {
-            "name": "bō staff",
-            "value": "90"
-        },
-        {
-            "name": "Ruby",
-            "value": "45"
         },
         {
             "name": "Rails",
@@ -76,22 +76,6 @@
         {
             "name": "git",
             "value": "60"
-        },
-        {
-            "name": "nunchucks",
-            "value": "85"
-        },
-        {
-            "name": "speaking",
-            "value": "90"
-        },
-        {
-            "name": "teaching",
-            "value": "90"
-        },
-        {
-            "name": "writing",
-            "value": "90"
         }
     ],
     "experience": [{
@@ -136,7 +120,6 @@
                 "ServiceStack",
                 "Javascript",
                 "Angular.js",
-                "Node.js",
                 "git"
             ],
             "description": "Implemented multi-lingual support in an Angular.js lease origination application. Designed and contributed to a greenfield microservice API."
@@ -456,11 +439,6 @@
             "name": "",
             "image": "",
             "content": "Building the right thing is always more important than building it right."
-        },
-        {
-            "name": "",
-            "image": "",
-            "content": "My mission is to empower people."
         },
         {
             "name": "",
