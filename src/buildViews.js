@@ -18,7 +18,7 @@ while (allSkills.length) {
   data.printSkillRows.push(allSkills.splice(0, 3));
 }
 
-projectCount = Math.round(data.experience.length / 2)
+projectCount = Math.round(data.experience.length * 0.666666667)
 data.projects = gatherProjects(data.experience, projectCount);
 
 var templateName = "./print/index-template.html";
