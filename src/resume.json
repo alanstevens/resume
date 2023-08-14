@@ -1,11 +1,11 @@
 {
     "author": "H. Alan Stevens",
     "intro": {
-        "description": "I am an <span>end to end</span> web developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
+        "description": "I am a software developer located in Knoxville, Tennessee.<br><span>I solve problems.</span>",
         "profilePic": "head_shot.jpg",
-        "aboutMe": " <p>I am a software developer with two decades experience delivering working software. Today, I focus on web development in ASP.NET and Angular.</p><p>I have worked remotely for over ten years. It is important for me to be part of a culture that supports remote work.</p> ",
+        "aboutMe": " <p>I am a software developer with two decades experience delivering working software. Today, I focus on development in ASP.NET.</p><p>I have worked remotely for over ten years. It is important for me to be part of a culture that supports remote work.</p> ",
         "moreAboutMe":"",
-        "hobbies": "<p>I am an avid flower gardener. I enjoy watching silly YouTube videos with my granddaughter. I host Knoxville Developer Beers, a bi-weekly meetup.</p>"
+        "hobbies": "<p>I enjoy watching silly YouTube videos with my granddaughter. I host <a href='http://devbeers.com'>DevBeers</a>, a bi-weekly meetup.</p>"
     },
     "socialIcons": [{
             "service": "twitter",
@@ -31,7 +31,7 @@
     "skillsDescription": "The percentages below are extremely subjective estimates based on a standard distribution. E.g. I do not presume to know 90% of all there is to know about C#, but I believe myself to be in the top 10% of my peers.",
     "skills": [{
             "name": "C#",
-            "value": "90"
+            "value": "85"
         },
         {
             "name": "ASP.NET",
@@ -40,10 +40,6 @@
         {
             "name": "Bootstrap",
             "value": "65"
-        },
-        {
-            "name": "bō staff",
-            "value": "90"
         },
         {
             "name": "javascript",
@@ -55,18 +51,6 @@
         },
         {
             "name": "CSS",
-            "value": "65"
-        },
-        {
-            "name": "nunchucks",
-            "value": "85"
-        },
-        {
-            "name": "Angular",
-            "value": "65"
-        },
-        {
-            "name": "Rails",
             "value": "45"
         },
         {
@@ -79,11 +63,25 @@
         }
     ],
     "experience": [{
+            "company": "Camping World",
+            "url": "http://campingworld.com",
+            "location": "Englewood, Colorado",
+            "client": "",
+            "dates": "2021 - 2023",
+            "tools": [
+                "C#",
+                "ASP.NET",
+                "Angular.js",
+                "TFS",
+                "git"
+            ],
+            "description": "Supported a system to manage extended warranty policies."
+        },{
             "company": "Health Catalyst",
             "url": "http://healthcatalyst.com",
             "location": "Salt Lake City, Utah",
             "client": "",
-            "dates": "January 2019 - Present",
+            "dates": "2019 - 2021",
             "tools": [
                 "C#",
                 "aspnet core",
